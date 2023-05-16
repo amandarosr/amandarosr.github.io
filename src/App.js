@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div>
         <h1 id="nome">Amanda Rodrigues</h1>
-        <img id="foto" src="prof pic.jpg" alt="foto da amanda sorrindo" width="200px" />
+        <img id="foto" src="../prof pic.jpg" alt="amanda sorrindo" width="200px" />
         <p id="descricao">Eu sou uma estudante de <strong>Desenvolvimento Web na Trybe</strong> com histórico profissional em tradução,
           legendagem e ensino
           de idiomas. Eu sou brasileira e morei em Porto Alegre por toda a minha vida, mas já tive incríveis experiências
