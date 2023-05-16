@@ -1,2 +1,2 @@
-//amandarosr.github.io
-Amanda Rodrigues - Portfólio
+# Amanda Rodrigues - Portfólio
+amandarosr.github.io
