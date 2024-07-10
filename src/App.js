@@ -7,10 +7,7 @@ class App extends Component {
       <div>
         <h1 id="nome">Amanda Rodrigues</h1>
         <img id="foto" src="../prof pic.jpg" alt="amanda sorrindo" width="200px" />
-        <p id="descricao">Eu sou uma estudante de <strong>Desenvolvimento Web na Trybe</strong> com histórico profissional em tradução,
-          legendagem e ensino
-          de idiomas. Eu sou brasileira e morei em Porto Alegre por toda a minha vida, mas já tive incríveis experiências
-          de intercâmbio nas quais estudei na <em>Inglaterra, Estados Unidos e Itália</em>.</p>
+        <p id="descricao">[descrição]</p>
         <h2 id="indice">Índice</h2>
         <ul>
           <li><a href="#foto">Foto</a></li>
@@ -20,11 +17,11 @@ class App extends Component {
         </ul>
         <h2 id="habil">Habilidades</h2>
         <ul>
-          <li><strong>Inglês fluente</strong></li>
-          <li>Italiano intermediário</li>
-          <li><strong>Excelente escrita</strong></li>
-          <li>Rápida aprendizagem</li>
-          <li>Conhecimento de CAT Tools</li>
+          <li><strong>A</strong></li>
+          <li>B</li>
+          <li><strong>C</strong></li>
+          <li>E</li>
+          <li>F</li>
         </ul>
         <h2 id="blog">Blog favorito:</h2>
         <p><a href="https://booksandbao.com/" target="_blank" rel="noreferrer"><em>Books & Bao</em></a></p>
