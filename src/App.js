@@ -6,15 +6,8 @@ class App extends Component {
     return (
       <div>
         <h1 id="nome">Amanda Rodrigues</h1>
-        <img id="foto" src="../prof pic.jpg" alt="amanda sorrindo" width="200px" />
         <p id="descricao">[descrição]</p>
-        <h2 id="indice">Índice</h2>
-        <ul>
-          <li><a href="#foto">Foto</a></li>
-          <li><a href="#descricao">Descrição</a></li>
-          <li><a href="#habil">Habilidades</a></li>
-          <li><a href="#blog">Blog Favorito</a></li>
-        </ul>
+        <div>
         <h2 id="habil">Habilidades</h2>
         <ul>
           <li><strong>A</strong></li>
@@ -23,8 +16,19 @@ class App extends Component {
           <li>E</li>
           <li>F</li>
         </ul>
-        <h2 id="blog">Blog favorito:</h2>
-        <p><a href="https://booksandbao.com/" target="_blank" rel="noreferrer"><em>Books & Bao</em></a></p>
+        </div>
+        <div className="estudos">
+        <h2>Estudos de caso</h2>
+        <img alt="gif"></img>
+        <img alt="gif"></img>
+        <img alt="gif"></img>
+        <img alt="gif"></img>
+        </div>
+        <footer>
+          <div>LinkedIn</div>
+          <div>E-mail</div>
+          <div>Workana</div>
+        </footer>
       </div>
     );
   }
