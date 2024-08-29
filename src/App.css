@@ -1,9 +1,23 @@
+@font-face {
+    font-family: TitleFont;
+    src: url(../public/DreamCottage-Regular.otf);
+}
+
 html {
     background-color: black;
+    font-family: TitleFont;
 }
 
 .mainpage {
-    display: flex
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3% 18%;
+    justify-content: space-around;
+}
+
+.mainpage div {
+    border-radius: 5%;
+    padding: 10px 20px;
 }
 
 .title {
