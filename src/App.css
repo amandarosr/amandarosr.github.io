@@ -1,7 +1,27 @@
-#indice{
-    text-decoration: underline;
+html {
+    background-color: black;
 }
 
-/* footer{
+.mainpage {
+    display: flex
+}
 
+.title {
+    background-color: white;
+}
+
+/*.index {
+    background-color: white;
 } */
+
+.habil {
+    background-color: white;
+}
+
+.estudos {
+    background-color: white;
+}
+
+.contato {
+    background-color: white;
+}
