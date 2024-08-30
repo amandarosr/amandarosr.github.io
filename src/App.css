@@ -1,41 +1,67 @@
 @font-face {
     font-family: TitleFont;
-    src: url(../public/DreamCottage-Regular.otf);
+    src: url(./extra/DreamCottage-Regular.otf);
 }
 
-html {
+body {
     background-color: black;
+    display: grid;
     font-family: TitleFont;
+    text-align: center;
 }
 
 .mainpage {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 3% 18%;
-    justify-content: space-around;
+    display: inline-block;
+    margin: 3% 20%;
 }
 
-.mainpage div {
+.blocks {
+    background-color: white;
     border-radius: 5%;
     padding: 10px 20px;
+    position: relative;
 }
 
 .title {
-    background-color: white;
-}
-
-/*.index {
-    background-color: white;
-} */
-
-.habil {
-    background-color: white;
-}
-
-.estudos {
-    background-color: white;
+    /* width: 40%; */
+    left: 5%;
 }
 
 .contato {
-    background-color: white;
+    /* width: 15%; */
+    right: 30%;
 }
+
+.index {
+    align-items: center;
+    background-color: red;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    /* height: 15%; */
+    /* top: 43%;
+    right: 23%; */
+}
+
+/* .index img {
+    height: 90%;
+} */
+
+.content {
+    /* width: 50%; */
+    left: 10%;
+    bottom: 60%;
+}
+
+/* .habil {
+    
+} */
+
+.habil ul {
+    display: flex;
+    list-style-type: none;
+}
+
+/* .estudos {
+    
+} */
