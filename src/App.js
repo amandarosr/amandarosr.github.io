@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import './App.css';
 import logo from './extra/logo192.png'
+import Circle from './components/Circle';
 
 class App extends Component {
   render() {
@@ -22,11 +23,11 @@ class App extends Component {
                 <li>F</li>
               </ul>
             </div>
-            <div className="cases blocks">
+            <div className="cases">
               <h2>Estudos de caso</h2>
               <img alt="gif"></img>
             </div>
-            <div className="contato blocks">
+            <div className="contato">
             <div>LinkedIn</div>
             <div>E-mail</div>
             <div>Workana</div>
@@ -34,9 +35,7 @@ class App extends Component {
           </div>
         </div>
         <aside>
-          <div className="buttons blocks">
-
-          </div>
+          <div className="buttons blocks"></div>
           <div className="index blocks">
             <img src={ logo } alt="index"/>
           </div>
