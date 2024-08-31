@@ -22,11 +22,8 @@ class App extends Component {
                 <li>F</li>
               </ul>
             </div>
-            <div className="estudos blocks">
+            <div className="cases blocks">
               <h2>Estudos de caso</h2>
-              <img alt="gif"></img>
-              <img alt="gif"></img>
-              <img alt="gif"></img>
               <img alt="gif"></img>
             </div>
             <div className="contato blocks">
