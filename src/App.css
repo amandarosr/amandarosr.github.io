@@ -4,22 +4,21 @@
 }
 
 body {
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(37, 31, 31);
+    color: rgb(38, 32, 32);
     font-family: TitleFont;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .fullpage {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 2%;
-    height: 100vh;
-    width: 100vw;
+    margin-top: 1%;
 }
 
 .blocks {
-    background-color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     padding: 10px 20px;
 }
 
@@ -33,21 +32,32 @@ body {
     display: flex;
     flex: row nowrap;
     justify-content: center;
-    min-height: 50vh;
+    min-height: 70vh;
+    margin-bottom: 5%
 }
 
 .mainpage {
     display: flex;
     flex-direction: column;
-    margin-right: 0.75rem;
+    margin-right: 0.8rem;
     width: 80%;
 }
 
 
 .title {
     background-color: rgb(255, 245, 226);
+    border-radius: 15px;
     color: rgb(46, 46, 46);
     margin-bottom: 4%;
+}
+
+.title h1 {
+    font-size: 250%;
+    margin-bottom: -1%;
+}
+
+.title h3 {
+    font-size: 115%;
 }
 
 /* .contato {
@@ -55,8 +65,10 @@ body {
 } */
 
 .content1 {
-    border-radius: 0 0 10% 0;
-    min-height: 45%;
+    background-image: url('./extra/updated.jpeg');
+    background-size: cover;
+    border-radius: 10px 10px 60px 10px;
+    min-height: 70%;
 }
 
 /* .habil {
@@ -80,26 +92,48 @@ aside {
 }
 
 .buttons {
-    border-radius: 0 10% 0 10%;
-    height: 75%;
+    background-image: url('./extra/natural\ textures.jpeg');
+    background-size: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px 60px 10px 60px;
+    height: 65%;
     width: 75%;
     margin-bottom: 8%;
 }
 
+.case-btn, .contact-btn {
+    margin-bottom: 10%;
+}
+
+button { 
+    background-color: rgb(255, 245, 226);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: none;
+    border-radius: 30px;
+    font-family: TitleFont;
+    font-size: large;
+    font-weight: 600;
+    /* height: 15%; */
+    padding: 15px 0;
+}
+
 .circle {
+    /* background-color: rgb(255, 245, 226); */
     align-items: center;
-    border-radius: 50%;
+    height: 26%;
+    margin-top: 8%;
     display: flex;
     justify-content: center;
-    height: 8rem;
-    width: 7rem;
 }
 
 .circle img {
-    height: 80%;
+    height: 110%;
 }
 
 .content2 {
-    margin-top: 3%;
-
+    background-color: rgb(255, 245, 226);
+    border-radius: 15px;
+    width: 95%;
 }
