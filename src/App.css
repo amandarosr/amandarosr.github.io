@@ -75,20 +75,26 @@ body {
 }
 
 .habil {
-    backdrop-filter: blur(1.5px);
+    /* backdrop-filter: blur(1.5px); */
     color: #fff5e2;
-    width: 10%;
+    height: 100%;
 }
 
-.habil ul {
+.habil-list {
     display: flex;
-    flex: row wrap;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     list-style-type: none;
+    /* width: 100%; */
+    /* height: 100%; */
 }
+
+/* .habil-list li {
+
+} */
 
 .logos {
-    height: 135px;
+    height: 8rem;
 }
 
 aside {
@@ -136,7 +142,7 @@ button {
 }
 
 .circle img {
-    height: 120%;
+    height: 128%;
 }
 
 .content2 {

@@ -23,14 +23,14 @@ class App extends Component {
               </div>
               <div className="content1 blocks">
                 <div className="habil">
-                  <h2>Habilidades</h2>
-                  <ul>
+                  {/* <h2>Habilidades</h2> */}
+                  <ul className="habil-list">
                     <li>
-                      <img src={ html5 } alt="html" id="html"/>
+                      <img src={ html5 } alt="html" id="html" className="logos"/>
                       <label for="html">HTML5</label>
                     </li>
                     <li>
-                      <img src={ css } alt="css" id="css"/>
+                      <img src={ css } alt="css" id="css" className="logos"/>
                       <label for="css">CSS</label>
                     </li>
                     <li>
@@ -54,7 +54,7 @@ class App extends Component {
                       <label for="jest">Jest</label>
                     </li>
                     <li>
-                      <img src={ bootstrap } alt="boot" id="boot"/>
+                      <img src={ bootstrap } alt="boot" id="boot" className="logos"/>
                       <label for="boot">Bootstrap</label>
                     </li>
                   </ul>
