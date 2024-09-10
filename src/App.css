@@ -4,7 +4,9 @@
 }
 
 body {
-    background-color: rgb(37, 31, 31);
+    /* background-color: rgb(37, 31, 31); */
+    background-image: url('./extra/brown-texture.jpg');
+    background-size: contain;
     color: rgb(38, 32, 32);
     font-family: TitleFont;
     overflow-x: hidden;
@@ -12,6 +14,7 @@ body {
 
 .fullpage {
     display: flex;
+    backdrop-filter: blur(0.8px);
     justify-content: center;
     text-align: center;
     margin-top: 1%;
@@ -25,7 +28,7 @@ body {
 .full-container{
     display: flex;
     flex-direction: column;
-    min-width: 55%;
+    width: 75%;
 }
 
 .main-container {
@@ -71,18 +74,22 @@ body {
     min-height: 70%;
 }
 
-/* .habil {
-    
-} */
+.habil {
+    backdrop-filter: blur(1.5px);
+    color: #fff5e2;
+    width: 10%;
+}
 
 .habil ul {
     display: flex;
+    flex: row wrap;
+    justify-content: space-around;
     list-style-type: none;
 }
 
-/* .cases {
-    
-} */
+.logos {
+    height: 135px;
+}
 
 aside {
     display: flex;
@@ -93,7 +100,7 @@ aside {
 
 .buttons {
     background-image: url('./extra/natural\ textures.jpeg');
-    background-size: 120%;
+    background-size: 140%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,7 +129,7 @@ button {
 .circle {
     /* background-color: rgb(255, 245, 226); */
     align-items: center;
-    height: 26%;
+    height: 27%;
     margin-top: 8%;
     display: flex;
     justify-content: center;

@@ -1,6 +1,14 @@
 import { Component } from 'react';
 import './App.css';
-import logo from './extra/tag-black-shape.png'
+import logo from './extra/tag-black-shape.png';
+import html5 from './extra/html-5.png';
+import css from './extra/text.png';
+import js from './extra/js.png';
+import react from './extra/logo192.png';
+import node from './extra/node.png';
+import redux from './extra/redux.svg';
+import jest from './extra/jest.svg';
+import bootstrap from './extra/bootstrap.png';
 
 class App extends Component {
   render() {
@@ -17,11 +25,38 @@ class App extends Component {
                 <div className="habil">
                   <h2>Habilidades</h2>
                   <ul>
-                    <li>A</li>
-                    <li>B</li>
-                    <li>C</li>
-                    <li>E</li>
-                    <li>F</li>
+                    <li>
+                      <img src={ html5 } alt="html" id="html"/>
+                      <label for="html">HTML5</label>
+                    </li>
+                    <li>
+                      <img src={ css } alt="css" id="css"/>
+                      <label for="css">CSS</label>
+                    </li>
+                    <li>
+                      <img src={ js } alt="js" id="js" className="logos"/>
+                      <label for="js">JavaScript</label>
+                    </li>
+                    <li>
+                      <img src={ react } alt="react" id="react" className="logos"/>
+                      <label for="react">React.js</label>
+                    </li>
+                    <li>
+                      <img src={ node } alt="node" id="node" className="logos"/>
+                      <label for="node">Node.js</label>
+                    </li>
+                    <li>
+                      <img src={ redux } alt="redux" id="redux" className="logos"/>
+                      <label for="redux">Redux</label>
+                    </li>
+                    <li>
+                      <img src={ jest } alt="jest" id="jest" className="logos"/>
+                      <label for="jest">Jest</label>
+                    </li>
+                    <li>
+                      <img src={ bootstrap } alt="boot" id="boot"/>
+                      <label for="boot">Bootstrap</label>
+                    </li>
                   </ul>
                 </div>
             </div>
@@ -30,7 +65,7 @@ class App extends Component {
               <div className="buttons blocks">
                 <button className="case-btn">Cases</button>
                 <button className="contact-btn">Contato</button>
-                <button>Currículo</button>
+                <button>CV</button>
               </div>
               <div className="circle">
                 <img src={ logo } alt="index"/>
@@ -39,13 +74,12 @@ class App extends Component {
           </div>
           <div className="content2 blocks">
             <div className="cases">
-              <h2>Estudos de caso</h2>
+              <h2>Cases</h2>
               <img alt="gif"></img>
             </div>
             <div className="contato">
               <div>LinkedIn</div>
               <div>E-mail</div>
-              <div>Workana</div>
             </div>
           </div>
         </div>
