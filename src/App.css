@@ -10,11 +10,11 @@ body {
     color: rgb(38, 32, 32);
     font-family: TitleFont;
     overflow-x: hidden;
+    /* overflow-y: scroll; */
 }
 
 .fullpage {
     display: flex;
-    backdrop-filter: blur(0.8px);
     justify-content: center;
     text-align: center;
     margin-top: 1%;
@@ -28,7 +28,7 @@ body {
 .full-container{
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 70%;
 }
 
 .main-container {
@@ -48,7 +48,7 @@ body {
 
 
 .title {
-    background-color: rgb(255, 245, 226);
+    background-color: #fff5e2;
     border-radius: 15px;
     color: rgb(46, 46, 46);
     margin-bottom: 4%;
@@ -110,7 +110,7 @@ aside {
     margin-bottom: 8%;
 }
 
-.case-btn, .contact-btn {
+.case-btn, .middle-btn {
     margin-bottom: 10%;
 }
 
@@ -129,14 +129,14 @@ button {
 .circle {
     /* background-color: rgb(255, 245, 226); */
     align-items: center;
-    height: 27%;
+    height: 28%;
     margin-top: 8%;
     display: flex;
     justify-content: center;
 }
 
 .circle img {
-    height: 110%;
+    height: 120%;
 }
 
 .content2 {
