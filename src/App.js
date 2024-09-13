@@ -1,6 +1,5 @@
 import { Component } from 'react';
 import './App.css';
-import logo from './extra/sun.png';
 import html5 from './extra/html-5.png';
 import css from './extra/text.png';
 import js from './extra/js.png';
@@ -67,9 +66,9 @@ class App extends Component {
                 <button className="middle-btn">Habilidades</button>
                 <button className="contact-btn">Contato</button>
               </div>
-              <div className="circle">
-                <img src={ logo } alt="index"/>
-              </div>
+              {/* <div className="circle">
+                <img src={ } alt="index"/>
+              </div> */}
             </aside>
           </div>
           <div className="content2 blocks">

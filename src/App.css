@@ -5,8 +5,7 @@
 
 body {
     /* background-color: rgb(37, 31, 31); */
-    background-image: url('./extra/brown-texture.jpg');
-    background-size: contain;
+    background-size: cover;
     color: rgb(38, 32, 32);
     font-family: TitleFont;
     overflow-x: hidden;
@@ -48,7 +47,7 @@ body {
 
 
 .title {
-    background-color: #fff5e2;
+    /* background-color: #fff5e2; */
     border-radius: 15px;
     color: rgb(46, 46, 46);
     margin-bottom: 4%;
@@ -68,7 +67,7 @@ body {
 } */
 
 .content1 {
-    background-image: url('./extra/updated.jpeg');
+    /* background-color: #fff5e2; */
     background-size: cover;
     border-radius: 10px 10px 60px 10px;
     min-height: 70%;
@@ -105,7 +104,7 @@ aside {
 }
 
 .buttons {
-    background-image: url('./extra/natural\ textures.jpeg');
+    /* background-color: #fff5e2; */
     background-size: 140%;
     display: flex;
     flex-direction: column;
@@ -121,7 +120,7 @@ aside {
 }
 
 button { 
-    background-color: rgb(255, 245, 226);
+    /* background-color: rgb(255, 245, 226); */
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border: none;
     border-radius: 30px;
@@ -132,8 +131,8 @@ button {
     padding: 15px 0;
 }
 
-.circle {
-    /* background-color: rgb(255, 245, 226); */
+/* .circle {
+    background-color: rgb(255, 245, 226);
     align-items: center;
     height: 28%;
     margin-top: 8%;
@@ -143,10 +142,10 @@ button {
 
 .circle img {
     height: 128%;
-}
+} */
 
 .content2 {
-    background-color: rgb(255, 245, 226);
+    /* background-color: rgb(255, 245, 226); */
     border-radius: 15px;
     width: 95%;
 }
