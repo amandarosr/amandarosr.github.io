@@ -7,14 +7,12 @@ import react from './extra/logo192.png';
 import node from './extra/node.png';
 import redux from './extra/redux.svg';
 import jest from './extra/jest.svg';
-import bootstrap from './extra/bootstrap.png';
+import responsive from './extra/bootstrap.png';
 
 class App extends Component {
   render() {
     return (
       <div className="fullpage">
-        <div className="full-container">
-          <div className="main-container">
             <div className="mainpage">
               <div className="title blocks">
                 <h1 id="nome">Amanda Rodrigues</h1>
@@ -53,35 +51,21 @@ class App extends Component {
                       <label for="jest">Jest</label>
                     </li>
                     <li>
-                      <img src={ bootstrap } alt="boot" id="boot" className="logos"/>
-                      <label for="boot">Bootstrap</label>
+                      <img src={ responsive } alt="resp" id="resp" className="logos"/>
+                      <label for="resp">Web Design Responsivo</label>
                     </li>
                   </ul>
+                  <div className="cases">
+                    <h2>Cases</h2>
+                    <img alt="gif"></img>
+                  </div>
+                  <div className="contato">
+                    <div>LinkedIn</div>
+                    <div>E-mail</div>
+                  </div>
                 </div>
             </div>
             </div>
-            <aside>
-              <div className="buttons blocks">
-                <button className="case-btn">Cases</button>
-                <button className="middle-btn">Habilidades</button>
-                <button className="contact-btn">Contato</button>
-              </div>
-              {/* <div className="circle">
-                <img src={ } alt="index"/>
-              </div> */}
-            </aside>
-          </div>
-          <div className="content2 blocks">
-            <div className="cases">
-              <h2>Cases</h2>
-              <img alt="gif"></img>
-            </div>
-            <div className="contato">
-              <div>LinkedIn</div>
-              <div>E-mail</div>
-            </div>
-          </div>
-        </div>
       </div>
     );
   }
