@@ -13,59 +13,59 @@ class App extends Component {
   render() {
     return (
       <div className="fullpage">
-            <div className="mainpage">
-              <div className="title blocks">
-                <h1 id="nome">Amanda Rodrigues</h1>
-                <h3 id="descricao">Desenvolvedora Front-end</h3>
+        <div className="mainpage">
+          <div className="title">
+            <h1 id="nome">Amanda Rodrigues</h1>
+            <h3 id="descricao">Desenvolvedora Front-end</h3>
+          </div>
+          <div className="content1">
+            <div className="habil">
+              {/* <h2>Habilidades</h2> */}
+              <ul className="habil-list">
+                <li>
+                  <img src={ html5 } alt="html" id="html" className="logos"/>
+                  <label for="html">HTML5</label>
+                </li>
+                <li>
+                  <img src={ css } alt="css" id="css" className="logos"/>
+                  <label for="css">CSS</label>
+                </li>
+                <li>
+                  <img src={ js } alt="js" id="js" className="logos"/>
+                  <label for="js">JavaScript</label>
+                </li>
+                <li>
+                  <img src={ react } alt="react" id="react" className="logos"/>
+                  <label for="react">React.js</label>
+                </li>
+                <li>
+                  <img src={ node } alt="node" id="node" className="logos"/>
+                  <label for="node">Node.js</label>
+                </li>
+                <li>
+                  <img src={ redux } alt="redux" id="redux" className="logos"/>
+                  <label for="redux">Redux</label>
+                </li>
+                <li>
+                  <img src={ jest } alt="jest" id="jest" className="logos"/>
+                  <label for="jest">Jest</label>
+                </li>
+                <li>
+                  <img src={ responsive } alt="resp" id="resp" className="logos"/>
+                  <label for="resp">Web Design Responsivo</label>
+                </li>
+              </ul>
+              <div className="cases">
+                <h2>Cases</h2>
+                <img alt="gif"></img>
               </div>
-              <div className="content1 blocks">
-                <div className="habil">
-                  {/* <h2>Habilidades</h2> */}
-                  <ul className="habil-list">
-                    <li>
-                      <img src={ html5 } alt="html" id="html" className="logos"/>
-                      <label for="html">HTML5</label>
-                    </li>
-                    <li>
-                      <img src={ css } alt="css" id="css" className="logos"/>
-                      <label for="css">CSS</label>
-                    </li>
-                    <li>
-                      <img src={ js } alt="js" id="js" className="logos"/>
-                      <label for="js">JavaScript</label>
-                    </li>
-                    <li>
-                      <img src={ react } alt="react" id="react" className="logos"/>
-                      <label for="react">React.js</label>
-                    </li>
-                    <li>
-                      <img src={ node } alt="node" id="node" className="logos"/>
-                      <label for="node">Node.js</label>
-                    </li>
-                    <li>
-                      <img src={ redux } alt="redux" id="redux" className="logos"/>
-                      <label for="redux">Redux</label>
-                    </li>
-                    <li>
-                      <img src={ jest } alt="jest" id="jest" className="logos"/>
-                      <label for="jest">Jest</label>
-                    </li>
-                    <li>
-                      <img src={ responsive } alt="resp" id="resp" className="logos"/>
-                      <label for="resp">Web Design Responsivo</label>
-                    </li>
-                  </ul>
-                  <div className="cases">
-                    <h2>Cases</h2>
-                    <img alt="gif"></img>
-                  </div>
-                  <div className="contato">
-                    <div>LinkedIn</div>
-                    <div>E-mail</div>
-                  </div>
-                </div>
+              <div className="contato">
+                <div>LinkedIn</div>
+                <div>E-mail</div>
+              </div>
             </div>
-            </div>
+          </div>
+        </div>
       </div>
     );
   }
