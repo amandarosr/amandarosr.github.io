@@ -4,15 +4,12 @@
 }
 
 body {
-    background-color: rgb(189, 233, 131);
-    background-size: cover;
+    /* background-color: #7EACB5; */
     color: rgb(38, 32, 32);
-    /* display: flex; */
     font-family: MainFont;
     overflow-x: hidden;
     text-align: center;
-    margin-top: 0;
-    /* overflow-y: scroll; */
+    margin: 0;
 }
 
 button {

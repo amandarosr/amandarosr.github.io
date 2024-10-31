@@ -1,44 +1,68 @@
-@font-face {
-    font-family: TitleFont;
-    src: url(../extra/Holen\ Vintage.otf);
+.fullpage {
+    background-image: url('../extra/halycon\ sunset.jpeg');
+    background-size: contain;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 .mainpage {
-    background-color: #fff5e2;
+    background-color: #fbeed6;
+    box-shadow: 0 14px 28px rgba(5, 19, 22, 0.5), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     justify-self: center;
-    width: 100vw;
+    min-width: 45%;
 }
 
 .title {
-    margin-top: -1%;
+    color: #964242;
 }
 
 .title h1 {
-    font-family: TitleFont;
     font-size: 330%;
-    margin-bottom: -1%;
 }
 
-.title h3 {
-    font-size: 1rem;
-}
+/* .title h3 {
+    font-size: 125%;
+} */
 
 .btn-case {
+    color: #964242;
     display: flex;
     flex-wrap: wrap;
+    font-size: larger;
+    font-weight: 600;
     margin: 20px 0;
 }
 
+.left-btn {
+    margin-right: 4px;
+}
+
 button {
-    background-color: rgb(255, 217, 146);
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    background: none;
     border: none;
-    font-size: large;
-    height: 30px;
+    color: #964242;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+button:hover {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#stamp {
+    height: 10%;
 }
 
 .content1 {
