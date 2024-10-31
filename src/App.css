@@ -7,10 +7,14 @@ body {
     background-color: rgb(189, 233, 131);
     background-size: cover;
     color: rgb(38, 32, 32);
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
     font-family: MainFont;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     text-align: center;
+    margin-top: 0;
     /* overflow-y: scroll; */
+}
+
+button {
+    font-family: MainFont;
 }

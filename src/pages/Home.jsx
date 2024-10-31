@@ -14,6 +14,10 @@ export default class Home extends Component {
     return (
       <div>
         <div className="mainpage">
+          <div className="btn-case">
+          <button>Projetos</button>
+          <button>Cases</button>
+          </div>
           <div className="title">
             <h1 id="nome">Amanda Rodrigues</h1>
             <h3 id="descricao">DESENVOLVEDORA FRONT-END</h3>
@@ -21,8 +25,6 @@ export default class Home extends Component {
           <div className="btn-case">
             <button>Habilidades</button>
             <button>Contato</button>
-            <button>Projetos</button>
-            <button>Cases</button>
           {/* <div className="content1">
             <div className="habil">
               <ul className="habil-list">
