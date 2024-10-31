@@ -1,23 +1,29 @@
 import React, { Component } from 'react'
-import html5 from '../extra/html-5.png';
-import css from '../extra/text.png';
-import js from '../extra/js.png';
-import react from '../extra/logo192.png';
-import node from '../extra/node.png';
-import redux from '../extra/redux.svg';
-import jest from '../extra/jest.svg';
-import responsive from '../extra/bootstrap.png';
+import '../style/Home.css';
+// import html5 from '../extra/html-5.png';
+// import css from '../extra/text.png';
+// import js from '../extra/js.png';
+// import react from '../extra/logo192.png';
+// import node from '../extra/node.png';
+// import redux from '../extra/redux.svg';
+// import jest from '../extra/jest.svg';
+// import responsive from '../extra/bootstrap.png';
 
 export default class Home extends Component {
   render() {
     return (
-        <div>
-          <div>
+      <div>
+        <div className="mainpage">
           <div className="title">
             <h1 id="nome">Amanda Rodrigues</h1>
-            <h3 id="descricao">Desenvolvedora Front-end</h3>
+            <h3 id="descricao">DESENVOLVEDORA FRONT-END</h3>
           </div>
-          <div className="content1">
+          <div className="btn-case">
+            <button>Habilidades</button>
+            <button>Contato</button>
+            <button>Projetos</button>
+            <button>Cases</button>
+          {/* <div className="content1">
             <div className="habil">
               <ul className="habil-list">
                 <li>
@@ -53,11 +59,8 @@ export default class Home extends Component {
                   <label for="resp">Web Design Responsivo</label>
                 </li>
               </ul>
-              <div className="cases">
-                <h2>Cases</h2>
-                <img alt="gif"></img>
-              </div>
             </div>
+          </div> */}
           </div>
         </div>
       </div>

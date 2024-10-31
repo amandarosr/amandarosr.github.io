@@ -1,0 +1,64 @@
+@font-face {
+    font-family: TitleFont;
+    src: url(../extra/Holen\ Vintage.otf);
+}
+
+.mainpage {
+    background-color: #fff5e2;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-width: 0%; */
+}
+
+.title {
+    border-radius: 15px;
+    color: rgb(46, 46, 46);
+    margin-bottom: 4%;
+}
+
+.title h1 {
+    font-family: TitleFont;
+    font-size: 330%;
+    margin-bottom: -1%;
+}
+
+.title h3 {
+    font-size: 1rem;
+}
+
+.btn-case {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-case button {
+    height: 50px;
+}
+
+.content1 {
+    /* background-color: #fff5e2; */
+    background-size: cover;
+    border-radius: 10px 10px 60px 10px;
+    min-height: 70%;
+}
+
+.habil {
+    /* backdrop-filter: blur(1.5px); */
+    /* color: #fff5e2; */
+    height: 100%;
+}
+
+.habil-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.logos {
+    height: 8rem;
+}
