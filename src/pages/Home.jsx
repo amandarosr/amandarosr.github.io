@@ -17,17 +17,15 @@ export default class Home extends Component {
           <div className="mainpage">
             <div className="btn-case">
               <button className="left-btn">Projetos</button>
-              {/* <p>|</p> */}
               <img src={ Star } alt='star' className="left-btn" />
               <button>Cases</button>
             </div>
             <div className="title">
               <h1 id="nome">Amanda Rodrigues</h1>
-              {/* <h3 id="descricao">Desenvolvedora Front-End</h3> */}
+              <h3 id="descricao">Desenvolvedora Front-End</h3>
             </div>
             <div className="btn-case">
               <button className="left-btn">Habilidades</button>
-              {/* <p>|</p> */}
               <img src={ Star } alt='star' className="left-btn" />
               <button>Contato</button>
             {/* <div className="content1">

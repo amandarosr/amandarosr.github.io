@@ -12,7 +12,7 @@
 .mainpage {
     background-color: #fbeed6;
     box-shadow: 0 14px 28px rgba(5, 19, 22, 0.5), 0 10px 10px rgba(0,0,0,0.22);
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,15 +23,19 @@
 
 .title {
     color: #964242;
+    margin-bottom: 20px;
 }
 
 .title h1 {
     font-size: 330%;
+    text-shadow: 4px 3px #7EACB5;
+    margin-bottom: -15px;
 }
 
-/* .title h3 {
-    font-size: 125%;
-} */
+.title h3 {
+    font-size: 115%;
+    text-shadow: 2px 2px rgb(126, 172, 181, 0.3);
+}
 
 .btn-case {
     color: #964242;
@@ -39,7 +43,7 @@
     flex-wrap: wrap;
     font-size: larger;
     font-weight: 600;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .left-btn {
@@ -51,13 +55,14 @@ button {
     background: none;
     border: none;
     color: #964242;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     padding: 8px;
+    text-shadow: 2px 2px rgb(126, 172, 181, 0.3);
 }
 
 button:hover {
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 600;
 }
 
