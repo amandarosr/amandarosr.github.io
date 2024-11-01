@@ -1,24 +1,32 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import '../style/Home.css';
 // import html5 from '../extra/html-5.png';
 // import css from '../extra/text.png';
 // import js from '../extra/js.png';
-// import react from '../extra/logo192.png';
 // import node from '../extra/node.png';
 // import redux from '../extra/redux.svg';
 // import jest from '../extra/jest.svg';
 // import responsive from '../extra/bootstrap.png';
 import Star from '../extra/star.png';
 
-export default class Home extends Component {
-  render() {
+export default function Home() {
+    const navigate = useNavigate();
+
     return (
         <div className="fullpage">
           <div className="mainpage">
             <div className="btn-case">
-              <button className="left-btn">Projetos</button>
+              <button
+              className="left-btn"
+              onClick={ () => navigate('/projects') }>
+                Projetos
+              </button>
               <img src={ Star } alt='star' className="left-btn" />
-              <button>Cases</button>
+              <button
+              onClick={ () => navigate('/cases') }>
+                Cases
+              </button>
             </div>
             <div className="title">
               <h1 id="nome">Amanda Rodrigues</h1>
@@ -27,7 +35,9 @@ export default class Home extends Component {
             <div className="btn-case">
               <button className="left-btn">Habilidades</button>
               <img src={ Star } alt='star' className="left-btn" />
-              <button>Contato</button>
+              <button>
+                Contato
+              </button>
             {/* <div className="content1">
               <div className="habil">
                 <ul className="habil-list">
@@ -44,7 +54,7 @@ export default class Home extends Component {
                     <label for="js">JavaScript</label>
                   </li>
                   <li>
-                    <img src={ react } alt="react" id="react" className="logos"/>
+                    <img alt="react" id="react" className="logos"/>
                     <label for="react">React.js</label>
                   </li>
                   <li>
@@ -71,4 +81,3 @@ export default class Home extends Component {
         </div>
     )
   }
-}

@@ -1,9 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-export default class Cases extends Component {
-  render() {
-    return (
-      <div>Cases</div>
-    )
-  }
+export default function Cases() {
+  const navigate = useNavigate();
+  return (
+    <div>
+      <button onClick={ () => navigate('/') }>{ "<<" }</button>
+      Cases
+    </div>
+  )
 }
