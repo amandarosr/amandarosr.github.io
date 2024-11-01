@@ -1,0 +1,99 @@
+.fullpage {
+    background-image: url('../extra/halycon\ sunset.jpeg');
+    background-size: contain;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainpage {
+    background-color: #fbeed6;
+    box-shadow: 0 14px 28px rgba(5, 19, 22, 0.6), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 15px;
+    border-right: 4px solid rgb(126, 172, 181, 0.6);
+    border-bottom: 4px solid rgb(126, 172, 181, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    min-width: 45%;
+}
+
+.title {
+    color: #964242;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    font-size: 330%;
+    text-shadow: 4px 3px #7EACB5;
+    margin-bottom: -15px;
+}
+
+.title h3 {
+    font-size: 115%;
+    text-shadow: 2px 2px rgb(126, 172, 181, 0.3);
+}
+
+.btn-case {
+    color: #964242;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: larger;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.left-btn {
+    margin-right: 4px;
+}
+
+button {
+    /* border-radius: 10px; */
+    background: none;
+    border: none;
+    color: #964242;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 8px;
+    text-shadow: 2px 2px rgb(126, 172, 181, 0.3);
+}
+
+button:hover {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#stamp {
+    height: 10%;
+}
+
+.content1 {
+    /* background-color: #fff5e2; */
+    background-size: cover;
+    border-radius: 10px 10px 60px 10px;
+    min-height: 70%;
+}
+
+.habil {
+    /* backdrop-filter: blur(1.5px); */
+    /* color: #fff5e2; */
+    height: 100%;
+}
+
+.habil-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+/* .logos {
+    height: 8rem;
+} */

@@ -1,6 +1,17 @@
-#foto{
-    border-radius: 38%;
+@font-face {
+    font-family: MainFont;
+    src: url(./extra/Garet-Book.otf);
 }
-#indice{
-    text-decoration: underline;
+
+body {
+    /* background-color: #; */
+    color: rgb(38, 32, 32);
+    font-family: MainFont;
+    overflow-x: hidden;
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    font-family: MainFont;
 }
