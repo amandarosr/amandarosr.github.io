@@ -33,18 +33,18 @@
 }
 
 .title h1 {
-    font-size: 390%;
-    font-family: TitleFont;
+    color: #68b2c1;
+    font-size: 350%;
+    /* font-family: TitleFont; */
     font-weight: 500;
     letter-spacing: -2px;
-    text-shadow: 3px 3px #7EACB5;
-    margin-bottom: -15px;
+    text-shadow: 3px 3px #964242;
+    margin-bottom: -13px;
 }
 
 .title h3 {
     font-size: 115%;
-    font-style: italic;
-    text-shadow: 2px 2px rgb(126, 172, 181, 0.3);
+    text-shadow: 2px 2px rgb(126, 172, 181, 0.4);
 }
 
 .btn-case {
@@ -65,15 +65,15 @@ button {
     background: none;
     border: none;
     color: #964242;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 600;
-    padding: 8px;
+    padding: 5px;
     text-shadow: 2px 2px rgb(126, 172, 181, 0.3);
 }
 
 button:hover {
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 25px;
+    text-shadow: 3px 3px rgb(126, 172, 181, 0.4);
 }
 
 #stamp {
