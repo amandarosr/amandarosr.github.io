@@ -1,3 +1,8 @@
+@font-face {
+    font-family: TitleFont;
+    src: url(../extra/Oceanside\ Typewriter.ttf);
+}
+
 .fullpage {
     background-image: url('../extra/halycon\ sunset.jpeg');
     background-size: contain;
@@ -10,11 +15,10 @@
 }
 
 .mainpage {
-    background-color: #fbeed6;
+    /* background-color: #fbeed6; */
+    background-image: url(../extra/paper3.avif);
     box-shadow: 0 14px 28px rgba(5, 19, 22, 0.6), 0 10px 10px rgba(0,0,0,0.22);
-    border-radius: 15px;
-    border-right: 4px solid rgb(126, 172, 181, 0.6);
-    border-bottom: 4px solid rgb(126, 172, 181, 0.6);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,13 +33,17 @@
 }
 
 .title h1 {
-    font-size: 330%;
-    text-shadow: 4px 3px #7EACB5;
-    margin-bottom: -15px;
+    font-size: 390%;
+    font-family: TitleFont;
+    font-weight: 500;
+    letter-spacing: -2px;
+    text-shadow: 3px 3px #7EACB5;
+    margin-bottom: -12px;
 }
 
 .title h3 {
     font-size: 115%;
+    font-style: italic;
     text-shadow: 2px 2px rgb(126, 172, 181, 0.3);
 }
 
@@ -57,14 +65,14 @@ button {
     background: none;
     border: none;
     color: #964242;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     padding: 8px;
     text-shadow: 2px 2px rgb(126, 172, 181, 0.3);
 }
 
 button:hover {
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 600;
 }
 
