@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 export default function Projects() {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="fullpage">
       <button onClick={ () => navigate('/') }>{ "<<" }</button>
       Projects
     </div>

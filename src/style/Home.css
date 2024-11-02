@@ -17,19 +17,19 @@
 .mainpage {
     /* background-color: #fbeed6; */
     background-image: url(../extra/paper3.avif);
-    box-shadow: 0 14px 28px rgba(5, 19, 22, 0.6), 0 10px 10px rgba(0,0,0,0.22);
-    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     justify-self: center;
-    min-width: 45%;
+    min-width: 53%;
 }
 
 .title {
     color: #964242;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .title h1 {
@@ -38,7 +38,7 @@
     font-weight: 500;
     letter-spacing: -2px;
     text-shadow: 3px 3px #7EACB5;
-    margin-bottom: -12px;
+    margin-bottom: -15px;
 }
 
 .title h3 {
