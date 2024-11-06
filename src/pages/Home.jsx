@@ -29,7 +29,8 @@ export default function Home() {
           <button className="left-btn" onClick={() => navigate("/projects")}>
             Projetos
           </button>
-          <button onClick={() => navigate("/cases")}>Cases</button>
+          <button onClick={() => navigate("/cases")} className="left-btn">Cases</button>
+          <a href="#contato">Contato</a>
         </div>
       <div className="mainpage">
         <div className="habil">
@@ -68,7 +69,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <div className="contato">Contato</div>
+        <div className="contato" id="contato">Contato</div>
       </div>
     </div>
   );
