@@ -1,11 +1,15 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from 'react';
+import '../style/Cases.css';
+import { useNavigate } from 'react-router-dom';
+import arrow from '../extra/arrow-right.png';
 
 export default function Projects() {
   const navigate = useNavigate();
   return (
     <div className="fullpage">
-      <button onClick={ () => navigate('/') }>{ "<<" }</button>
+      <button className="back-btn" onClick={ () => navigate('/') }>
+        <img src={ arrow } alt="arrow" className="arrow" />
+      </button>
       Projects
     </div>
   )
