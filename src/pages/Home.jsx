@@ -34,42 +34,45 @@ export default function Home() {
         </div>
       <div className="mainpage">
         <div className="habil">
+          <h2>Conhecimentos</h2>
           <ul className="habil-list">
-            <li>
+            <li >
               <img src={html5} alt="html" id="html" className="logos" />
-              <label for="html">HTML5</label>
+              <label className="tooltip" for="html">HTML5</label>
             </li>
             <li>
               <img src={css} alt="css" id="css" className="logos" />
-              <label for="css">CSS</label>
+              <label className="tooltip" for="css">CSS</label>
             </li>
             <li>
               <img src={js} alt="js" id="js" className="logos" />
-              <label for="js">JavaScript</label>
+              <label className="tooltip" for="js">JavaScript</label>
             </li>
             <li>
               <img src={react} alt="react" id="react" className="logos" />
-              <label for="react">React.js</label>
+              <label className="tooltip" for="react">React.js</label>
             </li>
             <li>
               <img src={node} alt="node" id="node" className="logos" />
-              <label for="node">Node.js</label>
+              <label className="tooltip" for="node">Node.js</label>
             </li>
             <li>
               <img src={redux} alt="redux" className="logos redux" />
-              <label for="redux">Redux</label>
+              <label className="tooltip" for="redux">Redux</label>
             </li>
             <li>
               <img src={jest} alt="jest" id="jest" className="logos" />
-              <label for="jest">Jest</label>
+              <label className="tooltip" for="jest">Jest</label>
             </li>
             <li>
               <img src={responsive} alt="resp" id="resp" className="logos" />
-              <label for="resp">Responsividade</label>
+              <label className="tooltip" for="resp">Responsividade</label>
             </li>
           </ul>
         </div>
-        <div className="contato" id="contato">Contato</div>
+        <div className="contato" id="contato">
+          <h2>Contato</h2>
+        </div>
       </div>
     </div>
   );

@@ -1,19 +1,24 @@
+@font-face {
+    font-family: TypewriterFont;
+    src: url(../extra/JMH\ Typewriter\ dry.otf);
+}
+
 .fullpage {
     background-image: url('../extra/test3.jpg');
     background-size: cover;
     background-position: 20%;
     background-attachment: fixed;
-    filter: grayscale(30%);
+    filter: grayscale(40%);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 200vh;
+    height: 300vh;
 }
 
 .top {
     /* backdrop-filter: blur(1.5px); */
-    background-color: #001836;
+    background-color: rgb(0, 24, 54, 0.95);
     box-shadow: 10px 8px 0px #fbeed6;
     border-radius: 15px;
     display: flex;
@@ -21,7 +26,8 @@
     align-items: center;
     justify-content: center;
     margin-top: 25px;
-    padding: 0 25px;
+    padding: 0 20px;
+    max-width: 70%;
 }
 
 #star {
@@ -36,16 +42,18 @@
 
 .title h1 {
     color: #fbeed6;
-    font-size: 350%;
-    font-weight: 500;
+    font-size: 355%;
+    /* font-weight: 500; */
+    /* font-family: TitleFont; */
     letter-spacing: -2px;
     text-shadow: 3px 3px #6a5722;
-    margin-bottom: -10px;
+    margin-bottom: -25px;
 }
 
 .title h3 {
     color: #fbeed6;
     font-size: 115%;
+    /* font-family: TitleFont; */
     text-shadow: 2px 2px #5c4a1a;
 }
 
@@ -55,28 +63,28 @@
     align-items: center;
     justify-content: center;
     font-weight: 600;
-    width: 20%;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .left-btn {
-    margin-right: 30px;
+    margin-right: 35px;
 }
 
 button, a {
     /* border-radius: 10px; */
-    background-color: #001836;
+    background-color: rgb(0, 24, 54, 0.97);
     box-shadow: 7px 5px 0px #fbeed6;
     border-radius: 10px;
     color: #fbeed6;
     /* font-family: ; */
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
-    padding: 8px 12px;
+    padding: 8px 25px;
 }
 
-button:hover {
+button:hover, a:hover {
     font-size: 23px;
+    text-decoration: underline;
 }
 
 a {
@@ -87,19 +95,28 @@ a {
     /* background-color: #fbeed6; */
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     justify-self: center;
     /* max-width: 60%; */
 }
 
+h2 {
+    font-size: 180%;
+    margin-bottom: 15px;
+}
+
 .habil {
     /* background-image: url(../extra/paper3.avif); */
-    background-color: #fbeed6;
+    background-color: rgb(251, 238, 214, 0.97);
     box-shadow: 10px 8px 0px #001836;
     border-radius: 15px;
     display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    overflow-y: scroll;
+    height: 90%;
     width: 60%;
 }
 
@@ -125,17 +142,22 @@ a {
 }
 
 .logos {
-    height: 120px;
-    width: 120px;
-}
-
-.logos:hover {
     height: 115px;
     width: 115px;
 }
 
+.tooltip {
+    background-color: #001836;
+    /* position: relative; */
+    border-radius: 5px;
+    color: #fbeed6;
+    font-family: TypewriterFont;
+    padding: 6px;
+    margin-top: 10px;
+}
+
 .contato {
-    background-color: #fbeed6;
+    background-color: rgb(251, 238, 214, 0.97);
     box-shadow: 10px 8px 0px #001836;
     border-radius: 15px;
     margin-top: 20px;
