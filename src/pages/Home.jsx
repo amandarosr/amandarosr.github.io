@@ -26,11 +26,14 @@ export default function Home() {
         </div>
       </div>
       <div className="btn-case">
-          <button className="left-btn" onClick={() => navigate("/projects")}>
+          <button className="left-btn btn" onClick={() => navigate("/projects")}>
             Projetos
           </button>
-          <button onClick={() => navigate("/cases")} className="left-btn">Cases</button>
-          <a href="#contato">Contato</a>
+          <button onClick={() => navigate("/cases")} className="left-btn btn">Cases</button>
+          <a href="#contato">
+            Contato
+            <img src={Star} alt="star" id="star2" />
+          </a>
         </div>
       <div className="mainpage">
         <div className="habil">

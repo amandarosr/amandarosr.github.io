@@ -26,7 +26,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 25px;
-    padding: 0 20px;
+    padding: 0 30px;
     max-width: 70%;
 }
 
@@ -42,7 +42,7 @@
 
 .title h1 {
     color: #fbeed6;
-    font-size: 355%;
+    font-size: 350%;
     /* font-weight: 500; */
     /* font-family: TitleFont; */
     letter-spacing: -2px;
@@ -67,10 +67,10 @@
 }
 
 .left-btn {
-    margin-right: 35px;
+    margin-right: 25px;
 }
 
-button, a {
+.btn, a {
     /* border-radius: 10px; */
     background-color: rgb(0, 24, 54, 0.97);
     box-shadow: 7px 5px 0px #fbeed6;
@@ -82,13 +82,20 @@ button, a {
     padding: 8px 25px;
 }
 
-button:hover, a:hover {
-    font-size: 23px;
-    text-decoration: underline;
+.btn:hover, a:hover {
+    font-size: 22px;
 }
 
 a {
     text-decoration: none;
+    padding-right: 13px;
+
+}
+
+#star2 {
+    height: 22px;
+    margin: 0 0 -5px 5px;
+    margin-bottom: -6.5px;
 }
 
 .mainpage {
@@ -99,7 +106,6 @@ a {
     align-items: center;
     justify-content: center;
     justify-self: center;
-    /* max-width: 60%; */
 }
 
 h2 {
@@ -117,7 +123,7 @@ h2 {
     padding-top: 10px;
     overflow-y: scroll;
     height: 90%;
-    width: 60%;
+    max-width: 60%;
 }
 
 .habil-list {
@@ -125,7 +131,7 @@ h2 {
     flex-flow: row wrap;
     justify-content: space-evenly;
     list-style-type: none;
-    margin-left: -35px;
+    margin-left: -32px;
     /* width: 50%; */
     /* height: 100%; */
 }
@@ -133,7 +139,7 @@ h2 {
 .habil-list li {
     display: flex;
     flex-direction: column;
-    margin: 10px 5px;
+    margin: 10px 6px;
 }
 
 .redux {
@@ -142,8 +148,8 @@ h2 {
 }
 
 .logos {
-    height: 115px;
-    width: 115px;
+    height: 112px;
+    width: 112px;
 }
 
 .tooltip {
