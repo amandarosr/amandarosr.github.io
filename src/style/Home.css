@@ -1,6 +1,6 @@
 @font-face {
-    font-family: TypewriterFont;
-    src: url(../extra/JMH\ Typewriter\ dry.otf);
+    font-family: Recoleta;
+    src: url(../extra/NostalgicWhispers-Regular.ttf);
 }
 
 .fullpage {
@@ -27,6 +27,7 @@
     justify-content: center;
     margin-top: 25px;
     padding: 0 30px;
+    min-width: 48%;
     max-width: 70%;
 }
 
@@ -43,8 +44,6 @@
 .title h1 {
     color: #fbeed6;
     font-size: 350%;
-    /* font-weight: 500; */
-    /* font-family: TitleFont; */
     letter-spacing: -2px;
     text-shadow: 3px 3px #6a5722;
     margin-bottom: -25px;
@@ -53,7 +52,6 @@
 .title h3 {
     color: #fbeed6;
     font-size: 115%;
-    /* font-family: TitleFont; */
     text-shadow: 2px 2px #5c4a1a;
 }
 
@@ -63,6 +61,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 600;
+    width: 50%;
     margin: 40px 0;
 }
 
@@ -76,10 +75,9 @@
     box-shadow: 7px 5px 0px #fbeed6;
     border-radius: 10px;
     color: #fbeed6;
-    /* font-family: ; */
     font-size: 20px;
     font-weight: 600;
-    padding: 8px 25px;
+    padding: 8px 22px;
 }
 
 .btn:hover, a:hover {
@@ -88,11 +86,11 @@
 
 a {
     text-decoration: none;
-    padding-right: 13px;
+    padding-right: 20px;
 
 }
 
-#star2 {
+.star2 {
     height: 22px;
     margin: 0 0 -5px 5px;
     margin-bottom: -6.5px;
@@ -101,11 +99,11 @@ a {
 .mainpage {
     /* background-color: #fbeed6; */
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
+    flex-flow: row wrap;
+    /* align-items: center; */
+    justify-content: space-around;
     justify-self: center;
+    width: 55%;
 }
 
 h2 {
@@ -120,44 +118,46 @@ h2 {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    padding: 10px 0;
+    align-items: center;
+    padding: 8px 0;
     overflow-y: scroll;
-    height: 90%;
-    max-width: 60%;
+    margin-bottom: 20px;
+    height: 30rem;
+    max-width: 30rem;
 }
 
 .habil-list {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
-    margin-left: -32px;
-    /* width: 50%; */
+    margin-left: -20px;
     /* height: 100%; */
 }
 
 .habil-list li {
     display: flex;
     flex-direction: column;
-    margin: 10px 6px;
+    margin: 6px 6px;
 }
 
 .redux {
-    height: 100px;
+    height: 90px;
     filter: grayscale(100%) contrast(230%);
 }
 
 .logos {
-    height: 112px;
-    width: 112px;
+    height: 6.5rem;
+    width: 6.5rem;
 }
 
 .tooltip {
-    background-color: #001836;
-    /* position: relative; */
+    color: #001836;
     border-radius: 5px;
-    color: #fbeed6;
-    font-family: TypewriterFont;
+    /* color: #fbeed6; */
+    font-family: Recoleta;
+    font-weight: 600;
     padding: 6px;
     margin-top: 10px;
 }
@@ -166,7 +166,23 @@ h2 {
     background-color: rgb(251, 238, 214, 0.97);
     box-shadow: 10px 8px 0px #001836;
     border-radius: 15px;
+    margin-bottom: 20px;
+    width: 25rem;
+}
+
+.c-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Recoleta;
+}
+
+.c-div {
     margin-top: 20px;
-    width: 60%;
-    /* height: 100%; */
+}
+
+.c-logos {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
 }
