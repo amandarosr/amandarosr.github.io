@@ -14,7 +14,7 @@ import hooks from "../extra/hook.png";
 import api from "../extra/api.png";
 import github from "../extra/git.png";
 import figma from "../extra/figma.png";
-import gmail from "../extra/gmail.png";
+import gmail from "../extra/email.png";
 import linkedIn from "../extra/linkedin.png";
 
 export default function Home() {
