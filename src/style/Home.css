@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 300vh;
+    height: 240vh;
 }
 
 .top {
@@ -25,7 +25,7 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 55px;
     padding: 0 30px;
     min-width: 48%;
     max-width: 75%;
@@ -43,55 +43,17 @@
 
 .title h1 {
     color: #fbeed6;
-    font-size: 350%;
-    letter-spacing: 2px;
+    font-size: 340%;
+    letter-spacing: 4px;
     text-shadow: 3px 3px #6a5722;
-    margin-bottom: -25px;
+    margin-bottom: -20px;
 }
 
 .title h3 {
     color: #fbeed6;
-    font-size: 115%;
+    font-size: 112%;
     letter-spacing: 2px;
     text-shadow: 2px 2px #5c4a1a;
-}
-
-.btn-case {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: space-evenly;
-    font-weight: 600;
-    min-width: 50%;
-    margin: 35px 0;
-}
-
-.left-btn {
-    margin-right: 25px;
-}
-
-.btn {
-    /* border-radius: 10px; */
-    background-color: rgb(0, 24, 54, 0.97);
-    box-shadow: 7px 5px 0px #fbeed6;
-    border-radius: 10px;
-    color: #fbeed6;
-    letter-spacing: 3px;
-    font-size: 22px;
-    font-weight: 600;
-    padding: 8px 20px;
-    height: 60px;
-    min-width: 35%;
-}
-
-.btn:hover {
-    font-size: 24px;
-}
-
-.star2 {
-    height: 22px;
-    margin: 0 0 -5px 5px;
-    margin-bottom: -6.5px;
 }
 
 .mainpage {
@@ -101,6 +63,7 @@
     /* align-items: center; */
     justify-content: center;
     justify-self: center;
+    margin-top: 45px;
     max-width: 95%;
 }
 
@@ -108,9 +71,84 @@
     margin-top: 40px;
 }
 
+.btn-case {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.left-btn {
+    margin-bottom: 25px;
+}
+
+.btn {
+    /* border-radius: 10px; */
+    background-color: rgb(0, 24, 54, 0.97);
+    box-shadow: 7px 5px 0px #fbeed6;
+    text-shadow: 2px 2px rgba(255, 252, 247, 0.2);
+    border-radius: 10px;
+    color: #fbeed6;
+    letter-spacing: 4px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 8px 20px;
+    height: 70px;
+    width: 20rem;
+}
+
+.btn:hover {
+    font-size: 24px;
+    letter-spacing: 7px;
+}
+
 h2 {
     font-size: 180%;
     margin-bottom: 10px;
+}
+
+h2 {
+    text-shadow: 2px 2px rgb(161, 149, 128, 0.4);
+}
+
+.contato {
+    background-color: rgb(251, 238, 214, 0.97);
+    box-shadow: 10px 8px 0px #001836;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px 90px;
+    height: 47%;
+    width: 24em;
+}
+
+.c-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family: Recoleta;
+}
+
+.c-logos {
+    height: 45px;
+    width: 45px;
+    margin: 25px;
+}
+
+#email {
+    background-color: #001836;
+    color: #fbeed6;
+    border-radius: 10px;
+    font-family: Recolata;
+    font-size: 22px;
+    padding: 5px 12px;
+    margin-top: 8px;
 }
 
 .habil {
@@ -123,7 +161,7 @@ h2 {
     align-items: center;
     padding: 8px 0;
     overflow-y: scroll;
-    margin: 0 20px 20px;
+    margin: 0 20px 30px;
     height: 30rem;
     max-width: 30rem;
 }
@@ -162,30 +200,4 @@ h2 {
     font-family: Recoleta;
     font-weight: 600;
     padding: 5px;
-}
-
-.contato {
-    background-color: rgb(251, 238, 214, 0.97);
-    box-shadow: 10px 8px 0px #001836;
-    border-radius: 15px;
-    margin: 0 20px 20px;
-    width: 24em;
-}
-
-.c-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: larger;
-    font-family: Recoleta;
-}
-
-.c-div {
-    margin-top: 20px;
-}
-
-.c-logos {
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
 }

@@ -32,15 +32,38 @@ export default function Home() {
           <h3 id="descricao">Desenvolvedora Front-End</h3>
         </div>
       </div>
+      <div className="mainpage">
+        <div>
       <div className="btn-case">
         <button className="left-btn btn" onClick={() => navigate("/projects")}>
           Projetos
         </button>
-        <button onClick={() => navigate("/cases")} className="left-btn btn">
+        <button onClick={() => navigate("/cases")} className="btn">
           Cases
         </button>
       </div>
-      <div className="mainpage">
+        <div className="contato" id="contato">
+          <h2>Contato</h2>
+          <div className="c-info">
+            <img src={gmail} alt="gmail" className="c-logos" />
+            <a 
+            href="https://www.linkedin.com/in/amandarosr/" 
+            target="_blank"
+            rel="noreferrer"
+            >
+              <img src={linkedIn} alt="linkedin" className="c-logos" />
+            </a>
+            <a 
+            href="https://github.com/amandarosr" 
+            target="_blank"
+            rel="noreferrer"
+            >
+              <img src={github} alt="github" className="c-logos" />
+            </a>
+          </div>
+          <p id="email">rodriguesamanda49@gmail.com</p>
+        </div>
+        </div>
         <div className="habil">
           <h2>Conhecimentos</h2>
           <ul className="habil-list">
@@ -117,20 +140,6 @@ export default function Home() {
               </label>
             </li>
           </ul>
-        </div>
-        <div className="contato" id="contato">
-          <h2>Contato</h2>
-          <div className="c-info">
-            <div className="c-div">
-              <img src={gmail} alt="gmail" className="c-logos" />
-              <p className="email">rodriguesamanda49@gmail.com</p>
-            </div>
-            <div className="c-div">
-              <img src={linkedIn} alt="linkedin" className="c-logos" />
-              <p>www.linkedin.com/in/amandarosr</p>
-              <img src={starDark} alt="starB" id="starB" />
-            </div>
-          </div>
         </div>
       </div>
     </div>
