@@ -16,6 +16,7 @@ import github from "../extra/git.png";
 import figma from "../extra/figma.png";
 import gmail from "../extra/email.png";
 import linkedIn from "../extra/linkedin.png";
+import starDark from "../extra/star-light.png";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -38,7 +39,6 @@ export default function Home() {
         <button onClick={() => navigate("/cases")} className="left-btn btn">
           Cases
         </button>
-        <a href="#contato">Contato</a>
       </div>
       <div className="mainpage">
         <div className="habil">
@@ -128,6 +128,7 @@ export default function Home() {
             <div className="c-div">
               <img src={linkedIn} alt="linkedin" className="c-logos" />
               <p>www.linkedin.com/in/amandarosr</p>
+              <img src={starDark} alt="starB" id="starB" />
             </div>
           </div>
         </div>

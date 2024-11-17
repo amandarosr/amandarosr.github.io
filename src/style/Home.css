@@ -28,12 +28,12 @@
     margin-top: 25px;
     padding: 0 30px;
     min-width: 48%;
-    max-width: 70%;
+    max-width: 75%;
 }
 
 #star {
     height: 100px;
-    margin-left: -20px;
+    margin-left: -40px;
 }
 
 .title {
@@ -44,7 +44,7 @@
 .title h1 {
     color: #fbeed6;
     font-size: 350%;
-    letter-spacing: -2px;
+    letter-spacing: 2px;
     text-shadow: 3px 3px #6a5722;
     margin-bottom: -25px;
 }
@@ -52,6 +52,7 @@
 .title h3 {
     color: #fbeed6;
     font-size: 115%;
+    letter-spacing: 2px;
     text-shadow: 2px 2px #5c4a1a;
 }
 
@@ -59,35 +60,32 @@
     display: flex;
     flex-flow: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     font-weight: 600;
-    width: 50%;
-    margin: 40px 0;
+    min-width: 50%;
+    margin: 35px 0;
 }
 
 .left-btn {
     margin-right: 25px;
 }
 
-.btn, a {
+.btn {
     /* border-radius: 10px; */
     background-color: rgb(0, 24, 54, 0.97);
     box-shadow: 7px 5px 0px #fbeed6;
     border-radius: 10px;
     color: #fbeed6;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 8px 22px;
-}
-
-.btn:hover, a:hover {
+    letter-spacing: 3px;
     font-size: 22px;
+    font-weight: 600;
+    padding: 8px 20px;
+    height: 60px;
+    min-width: 35%;
 }
 
-a {
-    text-decoration: none;
-    padding-right: 20px;
-
+.btn:hover {
+    font-size: 24px;
 }
 
 .star2 {
@@ -101,14 +99,18 @@ a {
     display: flex;
     flex-flow: row wrap;
     /* align-items: center; */
-    justify-content: space-around;
+    justify-content: center;
     justify-self: center;
-    width: 55%;
+    max-width: 95%;
+}
+
+.mainpage h2 {
+    margin-top: 40px;
 }
 
 h2 {
     font-size: 180%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .habil {
@@ -121,7 +123,7 @@ h2 {
     align-items: center;
     padding: 8px 0;
     overflow-y: scroll;
-    margin-bottom: 20px;
+    margin: 0 20px 20px;
     height: 30rem;
     max-width: 30rem;
 }
@@ -139,7 +141,7 @@ h2 {
 .habil-list li {
     display: flex;
     flex-direction: column;
-    margin: 6px 6px;
+    margin: 8px 7px;
 }
 
 .redux {
@@ -148,8 +150,9 @@ h2 {
 }
 
 .logos {
-    height: 6.5rem;
-    width: 6.5rem;
+    padding: 5px;
+    height: 6rem;
+    width: 6rem;
 }
 
 .tooltip {
@@ -158,22 +161,22 @@ h2 {
     /* color: #fbeed6; */
     font-family: Recoleta;
     font-weight: 600;
-    padding: 6px;
-    margin-top: 10px;
+    padding: 5px;
 }
 
 .contato {
     background-color: rgb(251, 238, 214, 0.97);
     box-shadow: 10px 8px 0px #001836;
     border-radius: 15px;
-    margin-bottom: 20px;
-    width: 25rem;
+    margin: 0 20px 20px;
+    width: 24em;
 }
 
 .c-info {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-size: larger;
     font-family: Recoleta;
 }
 
