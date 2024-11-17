@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../style/Home.css";
-import Star from "../extra/star.png";
+import Star from "../extra/galaxy.png";
 import html5 from "../extra/html-5.png";
 import css from "../extra/css.png";
 import js from "../extra/javascript.png";
@@ -12,11 +12,11 @@ import jest from "../extra/jester-hat.png";
 import responsive from "../extra/website.png";
 import hooks from "../extra/hook.png";
 import api from "../extra/api.png";
-import github from "../extra/git.png";
+import github from "../extra/github.png";
+import git from "../extra/git.png";
 import figma from "../extra/figma.png";
 import gmail from "../extra/email.png";
 import linkedIn from "../extra/linkedin.png";
-import starDark from "../extra/star-light.png";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -58,7 +58,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
             >
-              <img src={github} alt="github" className="c-logos" />
+              <img src={git} alt="git" className="c-logos" />
             </a>
           </div>
           <p id="email">rodriguesamanda49@gmail.com</p>
