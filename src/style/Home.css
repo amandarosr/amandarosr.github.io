@@ -38,7 +38,7 @@
 }
 
 .leaf {
-    height: 120px;
+    height: 110px;
     padding: 0 5px;
 }
 
@@ -110,7 +110,7 @@
 
 h2 {
     color: #6d2c2c;
-    font-size: 180%;
+    font-size: 35px;
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
@@ -148,8 +148,8 @@ h2 {
 }
 
 #email {
-    visibility: hidden;
-    background-color: #001836;
+    /* visibility: hidden; */
+    background-color: #6d2c2c;
     color: #fbeed6;
     border-radius: 10px;
     font-family: Recolata;
@@ -191,7 +191,7 @@ h2 {
 
 .redux {
     height: 90px;
-    filter: grayscale(100%) contrast(230%);
+    /* filter: grayscale(100%) contrast(230%); */
 }
 
 .logos {

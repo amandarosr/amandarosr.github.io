@@ -9,7 +9,7 @@ import js from "../extra/javascript.png";
 import react from "../extra/atomic.png";
 import node from "../extra/node.png";
 import redux from "../extra/redux.png";
-import jest from "../extra/jester-hat.png";
+import jest from "../extra/jest.webp";
 import responsive from "../extra/website.png";
 import hooks from "../extra/hook.png";
 import api from "../extra/api.png";
@@ -25,12 +25,12 @@ export default function Home() {
   return (
     <div className="fullpage">
       <div className="top">
-        <img src={leafL} alt="leaf" className="leaf" />
+        <img src={leafR} alt="leaf" className="leaf" />
         <div className="title">
           <h1 id="nome">Amanda Rodrigues</h1>
           <h3 id="descricao">Desenvolvedora Front-End</h3>
         </div>
-        <img src={leafR} alt="leaf" className="leaf" />
+        <img src={leafL} alt="leaf" className="leaf" />
       </div>
       <div className="mainpage">
         <div>
@@ -104,21 +104,9 @@ export default function Home() {
               </label>
             </li>
             <li>
-              <img src={hooks} alt="hooks" id="hooks" className="logos" />
-              <label className="tooltip" for="hooks">
-                React Hooks
-              </label>
-            </li>
-            <li>
               <img src={redux} alt="redux" className="logos redux" />
               <label className="tooltip" for="redux">
                 Redux
-              </label>
-            </li>
-            <li>
-              <img src={api} alt="api" id="api" className="logos" />
-              <label className="tooltip" for="api">
-                APIs
               </label>
             </li>
             <li>
@@ -131,6 +119,18 @@ export default function Home() {
               <img src={figma} alt="figma" id="figma" className="logos" />
               <label className="tooltip" for="api">
                 Figma
+              </label>
+            </li>
+            <li>
+              <img src={hooks} alt="hooks" id="hooks" className="logos" />
+              <label className="tooltip" for="hooks">
+                React Hooks
+              </label>
+            </li>
+            <li>
+              <img src={api} alt="api" id="api" className="logos" />
+              <label className="tooltip" for="api">
+                APIs
               </label>
             </li>
             <li>
