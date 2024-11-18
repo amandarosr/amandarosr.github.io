@@ -22,10 +22,8 @@
 }
 
 .top {
-    /* backdrop-filter: blur(1.5px); */
     background-color: rgb(197, 208, 210, 0.85);
     box-shadow: 10px 8px 0px #6d2c2c;
-    /* border: #fbeed6 solid 1px; */
     border-radius: 15px;
     display: flex;
     flex-flow: row nowrap;
@@ -38,7 +36,7 @@
 }
 
 .leaf {
-    height: 110px;
+    height: 70px;
     padding: 0 5px;
 }
 
@@ -50,14 +48,14 @@
     color: #6d2c2c;
     font-size: 68px;
     letter-spacing: 4px;
-    text-shadow: 3px 3px rgb(251, 238, 214, 0.7);
+    /* text-shadow: 3px 3px rgb(251, 238, 214, 0.7); */
 }
 
 .title h3 {
     color: #6d2c2c;
     font-size: 22px;
     letter-spacing: 2px;
-    text-shadow: 2px 2px rgb(251, 238, 214, 0.7);
+    /* text-shadow: 2px 2px rgb(251, 238, 214, 0.7); */
     margin-top: -40px;
 }
 
@@ -93,7 +91,7 @@
 .btn {
     background-color: rgb(197, 208, 210, 0.9);
     box-shadow: 7px 5px 0px #6d2c2c;
-    text-shadow: 2px 2px rgb(251, 238, 214, 0.7);
+    /* text-shadow: 2px 2px rgb(251, 238, 214, 0.7); */
     border-radius: 10px;
     color: #6d2c2c;
     letter-spacing: 4px;
@@ -169,8 +167,10 @@ h2 {
     padding: 8px 0;
     overflow-y: scroll;
     margin: 0 20px 30px;
-    height: 32rem;
+    height: 31rem;
     max-width: 30rem;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 .habil-list {

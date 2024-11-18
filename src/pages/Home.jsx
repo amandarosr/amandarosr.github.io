@@ -25,25 +25,25 @@ export default function Home() {
   return (
     <div className="fullpage">
       <div className="top">
-        <img src={leafR} alt="leaf" className="leaf" />
+        <img src={leafL} alt="leaf" className="leaf" />
         <div className="title">
           <h1 id="nome">Amanda Rodrigues</h1>
-          <h3 id="descricao">Desenvolvedora Front-End</h3>
+          <h3 id="descricao">desenvolvedora front-end</h3>
         </div>
-        <img src={leafL} alt="leaf" className="leaf" />
+        <img src={leafR} alt="leaf" className="leaf" />
       </div>
       <div className="mainpage">
         <div>
       <div className="btn-case">
         <button className="left-btn btn" onClick={() => navigate("/projects")}>
-          Projetos
+          projetos
         </button>
         <button onClick={() => navigate("/cases")} className="btn">
-          Cases
+          cases
         </button>
       </div>
         <div className="contato" id="contato">
-          <h2>Contato</h2>
+          <h2>contato</h2>
           <div className="c-info">
             <img src={gmail} alt="gmail" className="c-logos" />
             <a 
@@ -65,7 +65,7 @@ export default function Home() {
         </div>
         </div>
         <div className="habil">
-          <h2>Conhecimentos</h2>
+          <h2>conhecimentos</h2>
           <ul className="habil-list">
             <li>
               <img src={html5} alt="html" id="html" className="logos" />
@@ -92,12 +92,6 @@ export default function Home() {
               </label>
             </li>
             <li>
-              <img src={github} alt="github" id="github" className="logos" />
-              <label className="tooltip" for="github">
-                Github
-              </label>
-            </li>
-            <li>
               <img src={node} alt="node" id="node" className="logos" />
               <label className="tooltip" for="node">
                 Node.js
@@ -113,6 +107,12 @@ export default function Home() {
               <img src={jest} alt="jest" id="jest" className="logos" />
               <label className="tooltip" for="jest">
                 Jest
+              </label>
+            </li>
+            <li>
+              <img src={github} alt="github" id="github" className="logos" />
+              <label className="tooltip" for="github">
+                Github
               </label>
             </li>
             <li>

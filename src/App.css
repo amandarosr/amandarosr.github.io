@@ -3,6 +3,10 @@
     src: url(./extra/Mangiola-Regular.ttf);
 }
 
+html {
+    scrollbar-width: none;
+}
+
 body {
     /* background-color: #; */
     color: rgb(38, 32, 32);
