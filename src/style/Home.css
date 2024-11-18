@@ -1,19 +1,19 @@
 @font-face {
     font-family: Recoleta;
-    src: url(../extra/NostalgicWhispers-Regular.ttf);
+    src: url(../extra/TT\ Fors\ Trial\ Regular.ttf);
 }
 
 /* colors: 
 #fbeed6
-#001836
+#6d2c2c
 */
 
 .fullpage {
-    background-image: url('../extra/test3.jpg');
-    background-size: cover;
-    background-position: 20%;
+    /* background-color: #f9f6ed; */
+    background-image: url('../extra/halycon\ sunset.jpeg');
+    background-size: contain;
+    background-position: 50%;
     background-attachment: fixed;
-    filter: grayscale(40%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,43 +23,42 @@
 
 .top {
     /* backdrop-filter: blur(1.5px); */
-    background-color: rgb(0, 24, 54, 0.95);
-    box-shadow: 10px 8px 0px #fbeed6;
+    background-color: rgb(197, 208, 210, 0.85);
+    box-shadow: 10px 8px 0px #6d2c2c;
+    /* border: #fbeed6 solid 1px; */
     border-radius: 15px;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
     margin-top: 55px;
-    padding: 0 30px;
+    padding: 0 25px;
     min-width: 48%;
     max-width: 75%;
 }
 
-#star {
-    height: 95px;
-    margin-left: -30px;
-    margin-right: 15px;
+.leaf {
+    height: 120px;
+    padding: 0 5px;
 }
 
 .title {
-    border-radius: 15px;
-    color: #964242;
+    margin: -10px 0 10px;
 }
 
 .title h1 {
-    color: #fbeed6;
-    font-size: 340%;
+    color: #6d2c2c;
+    font-size: 68px;
     letter-spacing: 4px;
-    text-shadow: 3px 3px #6a5722;
-    margin-bottom: -20px;
+    text-shadow: 3px 3px rgb(251, 238, 214, 0.7);
 }
 
 .title h3 {
-    color: #fbeed6;
-    font-size: 112%;
+    color: #6d2c2c;
+    font-size: 22px;
     letter-spacing: 2px;
-    text-shadow: 2px 2px #5c4a1a;
+    text-shadow: 2px 2px rgb(251, 238, 214, 0.7);
+    margin-top: -40px;
 }
 
 .mainpage {
@@ -92,14 +91,13 @@
 }
 
 .btn {
-    /* border-radius: 10px; */
-    background-color: rgb(0, 24, 54, 0.97);
-    box-shadow: 7px 5px 0px #fbeed6;
-    text-shadow: 2px 2px rgba(255, 252, 247, 0.2);
+    background-color: rgb(197, 208, 210, 0.9);
+    box-shadow: 7px 5px 0px #6d2c2c;
+    text-shadow: 2px 2px rgb(251, 238, 214, 0.7);
     border-radius: 10px;
-    color: #fbeed6;
+    color: #6d2c2c;
     letter-spacing: 4px;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: 600;
     padding: 8px 20px;
     height: 80px;
@@ -107,18 +105,19 @@
 }
 
 .btn:hover {
-    font-size: 24px;
     letter-spacing: 6px;
 }
 
 h2 {
+    color: #6d2c2c;
     font-size: 180%;
+    letter-spacing: 2px;
     margin-bottom: 10px;
 }
 
 .contato {
     background-color: rgb(251, 238, 214, 0.97);
-    box-shadow: 10px 8px 0px #001836;
+    box-shadow: 10px 8px 0px #6d2c2c;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -141,7 +140,11 @@ h2 {
 .c-logos {
     height: 45px;
     width: 45px;
-    margin: 25px;
+    margin: 20px;
+}
+
+.linked {
+    padding-bottom: 5px;
 }
 
 #email {
@@ -158,7 +161,7 @@ h2 {
 .habil {
     /* background-image: url(../extra/paper3.avif); */
     background-color: rgb(251, 238, 214, 0.97);
-    box-shadow: 10px 8px 0px #001836;
+    box-shadow: 10px 8px 0px #6d2c2c;
     border-radius: 15px;
     display: flex;
     flex-direction: column;

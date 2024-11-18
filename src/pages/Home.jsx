@@ -1,7 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../style/Home.css";
-import Star from "../extra/galaxy.png";
+import leafL from "../extra/leafL.png";
+import leafR from "../extra/leafR.png";
 import html5 from "../extra/html-5.png";
 import css from "../extra/css.png";
 import js from "../extra/javascript.png";
@@ -24,13 +25,12 @@ export default function Home() {
   return (
     <div className="fullpage">
       <div className="top">
-        <div>
-          <img src={Star} alt="star" id="star" />
-        </div>
+        <img src={leafL} alt="leaf" className="leaf" />
         <div className="title">
           <h1 id="nome">Amanda Rodrigues</h1>
           <h3 id="descricao">Desenvolvedora Front-End</h3>
         </div>
+        <img src={leafR} alt="leaf" className="leaf" />
       </div>
       <div className="mainpage">
         <div>
@@ -51,7 +51,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
             >
-              <img src={linkedIn} alt="linkedin" className="c-logos" />
+              <img src={linkedIn} alt="linkedin" className="c-logos linked" />
             </a>
             <a 
             href="https://github.com/amandarosr" 
