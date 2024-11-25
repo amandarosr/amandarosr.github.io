@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 255vh;
+    height: 240vh;
 }
 
 .top {
@@ -48,14 +48,14 @@
     color: #6d2c2c;
     font-size: 70px;
     letter-spacing: 5px;
-    /* text-shadow: 3px 3px rgb(251, 238, 214, 0.7); */
+    text-shadow: 3px 3px rgba(227, 213, 187, 0.4);
 }
 
 .title h3 {
     color: #6d2c2c;
     font-size: 22px;
     letter-spacing: 2px;
-    /* text-shadow: 2px 2px rgb(251, 238, 214, 0.7); */
+    text-shadow: 2px 2px rgba(227, 213, 187, 0.4);
     margin-top: -40px;
 }
 
@@ -63,7 +63,6 @@
     /* background-color: #fbeed6; */
     display: flex;
     flex-flow: row wrap;
-    /* align-items: center; */
     justify-content: center;
     justify-self: center;
     margin-top: 45px;
@@ -91,8 +90,8 @@
 .btn {
     background-color: rgb(197, 208, 210, 0.9);
     box-shadow: 7px 5px 0px #6d2c2c;
-    /* text-shadow: 2px 2px rgb(251, 238, 214, 0.7); */
     border-radius: 10px;
+    border: none;
     color: #6d2c2c;
     letter-spacing: 4px;
     font-size: 27px;
@@ -141,6 +140,10 @@ h2 {
     margin-top: 10px;
 }
 
+.c-logos:hover {
+    cursor: pointer;
+}
+
 .c-logos {
     height: 45px;
     width: 45px;
@@ -148,19 +151,8 @@ h2 {
 }
 
 .linked {
-    padding-bottom: 5px;
+    padding-bottom: 8px;
 }
-
-/* #email {
-    visibility: hidden;
-    background-color: #6d2c2c;
-    color: #fbeed6;
-    border-radius: 10px;
-    font-family: Recolata;
-    font-size: 22px;
-    padding: 5px 12px;
-    margin-top: 8px;
-} */
 
 .habil {
     /* background-image: url(../extra/paper3.avif); */
@@ -207,7 +199,7 @@ h2 {
 }
 
 .logos {
-    padding: 5px;
+    padding: 8px 5px;
     height: 6rem;
     width: 6rem;
 }
