@@ -1,0 +1,14 @@
+.arrow {
+    height: 100px;
+    width: 100px;
+}
+
+.back-btn {
+    background: none;
+    border: 0;
+}
+
+.arrow:hover {
+    height: 93px;
+    width: 93px;
+}
