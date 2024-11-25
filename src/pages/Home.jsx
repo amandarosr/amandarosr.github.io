@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../style/Home.css";
+import { useCopyToClipboard } from "@uidotdev/usehooks";
+import Swal from 'sweetalert2'
 // import leafL from "../extra/leafL.png";
 // import leafR from "../extra/leafR.png";
 import html5 from "../extra/html-5.png";
@@ -21,16 +23,26 @@ import linkedIn from "../extra/linkedin.png";
 
 export default function Home() {
   const navigate = useNavigate();
+  const [ , copyToClipboard] = useCopyToClipboard();
+  // const hasCopiedText = Boolean(copiedText);
+  const copyEmail = () => {
+    copyToClipboard("rodriguesamanda49@gmail.com")
+    Swal.fire ({
+      position: "top",
+      icon: "success",
+      title: 'E-mail copiado',
+      timer: 1500,
+      showConfirmButton: false
+    })
+  }
 
   return (
     <div className="fullpage">
       <div className="top">
-        {/* <img src={leafL} alt="leaf" className="leaf" /> */}
         <div className="title">
           <h1 id="nome">Amanda Rodrigues</h1>
           <h3 id="descricao">desenvolvedora front-end</h3>
         </div>
-        {/* <img src={leafR} alt="leaf" className="leaf" /> */}
       </div>
       <div className="mainpage">
         <div>
@@ -44,9 +56,14 @@ export default function Home() {
       </div>
         <div className="contato" id="contato">
           <h2>contato</h2>
-          <p className="mouseOver">(clique no email para copiar o endereço)</p>
+          <p className="mouseOver">(clique no e-mail para copiar o endereço)</p>
           <div className="c-info">
-            <img src={gmail} alt="gmail" className="c-logos" />
+            <button 
+            id="emailBtn"
+            onClick={copyEmail}
+            >
+              <img src={gmail} alt="gmail" className="c-logos" />
+            </button>
             <a 
             href="https://www.linkedin.com/in/amandarosr/" 
             target="_blank"

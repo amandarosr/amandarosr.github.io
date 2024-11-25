@@ -126,6 +126,11 @@ h2 {
     width: 24em;
 }
 
+#emailBtn {
+    border: none;
+    background: none;
+}
+
 .c-info {
     display: flex;
     flex-direction: row;
