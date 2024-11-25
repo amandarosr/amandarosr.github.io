@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 240vh;
+    height: 250vh;
 }
 
 .top {
@@ -46,7 +46,7 @@
 
 .title h1 {
     color: #6d2c2c;
-    font-size: 70px;
+    font-size: 65px;
     letter-spacing: 5px;
     text-shadow: 3px 3px rgba(227, 213, 187, 0.4);
 }
