@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 240vh;
+    height: 255vh;
 }
 
 .top {
@@ -35,10 +35,10 @@
     max-width: 75%;
 }
 
-.leaf {
+/* .leaf {
     height: 70px;
     padding: 0 5px;
-}
+} */
 
 .title {
     margin: -10px 0 10px;
@@ -46,8 +46,8 @@
 
 .title h1 {
     color: #6d2c2c;
-    font-size: 68px;
-    letter-spacing: 4px;
+    font-size: 70px;
+    letter-spacing: 5px;
     /* text-shadow: 3px 3px rgb(251, 238, 214, 0.7); */
 }
 
@@ -120,9 +120,9 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: center; */
     margin: 0 20px 90px;
-    height: 45%;
+    height: 46%;
     width: 24em;
 }
 
@@ -133,6 +133,7 @@ h2 {
     align-items: center;
     font-size: larger;
     font-family: Recoleta;
+    margin-top: 10px;
 }
 
 .c-logos {
@@ -145,8 +146,8 @@ h2 {
     padding-bottom: 5px;
 }
 
-#email {
-    /* visibility: hidden; */
+/* #email {
+    visibility: hidden;
     background-color: #6d2c2c;
     color: #fbeed6;
     border-radius: 10px;
@@ -154,7 +155,7 @@ h2 {
     font-size: 22px;
     padding: 5px 12px;
     margin-top: 8px;
-}
+} */
 
 .habil {
     /* background-image: url(../extra/paper3.avif); */
@@ -167,10 +168,16 @@ h2 {
     padding: 8px 0;
     overflow-y: scroll;
     margin: 0 20px 30px;
-    height: 31rem;
+    height: 30rem;
     max-width: 30rem;
     scroll-behavior: smooth;
     scrollbar-width: none;
+}
+
+.mouseOver {
+    margin-top: -5px;
+    font-weight: 600;
+    color: #6d2c2c;
 }
 
 .habil-list {

@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../style/Home.css";
-import leafL from "../extra/leafL.png";
-import leafR from "../extra/leafR.png";
+// import leafL from "../extra/leafL.png";
+// import leafR from "../extra/leafR.png";
 import html5 from "../extra/html-5.png";
 import css from "../extra/css.png";
 import js from "../extra/javascript.png";
@@ -25,12 +25,12 @@ export default function Home() {
   return (
     <div className="fullpage">
       <div className="top">
-        <img src={leafL} alt="leaf" className="leaf" />
+        {/* <img src={leafL} alt="leaf" className="leaf" /> */}
         <div className="title">
           <h1 id="nome">Amanda Rodrigues</h1>
           <h3 id="descricao">desenvolvedora front-end</h3>
         </div>
-        <img src={leafR} alt="leaf" className="leaf" />
+        {/* <img src={leafR} alt="leaf" className="leaf" /> */}
       </div>
       <div className="mainpage">
         <div>
@@ -44,6 +44,7 @@ export default function Home() {
       </div>
         <div className="contato" id="contato">
           <h2>contato</h2>
+          <p className="mouseOver">(clique no email para copiar o endereço)</p>
           <div className="c-info">
             <img src={gmail} alt="gmail" className="c-logos" />
             <a 
@@ -61,11 +62,12 @@ export default function Home() {
               <img src={git} alt="git" className="c-logos" />
             </a>
           </div>
-          <p id="email">rodriguesamanda49@gmail.com</p>
+          {/* <p id="email">rodriguesamanda49@gmail.com</p> */}
         </div>
         </div>
         <div className="habil">
           <h2>conhecimentos</h2>
+          <p className="mouseOver">(passe o mouse sobre a imagem)</p>
           <ul className="habil-list">
             <li>
               <img src={html5} alt="html" id="html" className="logos" />
