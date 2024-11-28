@@ -1,6 +1,6 @@
 import React from 'react';
 import { useCopyToClipboard } from "@uidotdev/usehooks";
-import "../style/Home.css";
+import "../style/Contact.css";
 import Swal from "sweetalert2";
 import git from "../extra/git.png";
 import gmail from "../extra/email.png";

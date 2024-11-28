@@ -1,5 +1,5 @@
 import React from 'react'
-import "../style/Home.css"
+import "../style/Skills.css"
 import Tooltip from "@mui/material/Tooltip";
 import html5 from "../extra/html-5.png";
 import css from "../extra/css.png";
