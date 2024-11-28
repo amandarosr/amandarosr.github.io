@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <div className="fullpage">
       <button className="back-btn" onClick={ () => navigate('/') }>
-        <img src={ arrow } alt="arrow" className="arrow" />
+        <h1>←</h1>
       </button>
       Projects
     </div>
