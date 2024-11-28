@@ -9,118 +9,99 @@
 */
 
 .fullpage {
-    /* background-color: #f9f6ed; */
-    background-image: url('../extra/halycon\ sunset.jpeg');
-    background-size: contain;
-    background-position: 50%;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    height: 250vh;
+  display: flex;
+  flex-flow: row wrap;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainpage-left {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  /* justify-content: center; */
+  margin-top: 30px;
+  max-width: 55%;
 }
 
 .top {
-    background-color: rgba(194, 212, 223, 0.85);
-    box-shadow: 10px 8px 0px rgb(109, 44, 44);
-    border-radius: 15px;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: 55px;
-    padding: 0 28px;
-    min-width: 48%;
-    max-width: 75%;
+  background-color: rgba(194, 212, 223, 0.85);
+  box-shadow: 10px 8px 0px rgb(109, 44, 44);
+  border-radius: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+  padding: 0 28px;
+  height: 22rem;
+  width: 20rem;
 }
 
-/* .leaf {
-    height: 70px;
-    padding: 0 5px;
-} */
-
 .title {
-    margin: -10px 0 10px;
+  margin: -10px 0 10px;
 }
 
 .title h1 {
-    color: #6d2c2c;
-    font-size: 53px;
-    letter-spacing: 4px;
-    text-shadow: 3px 3px rgba(227, 213, 187, 0.4);
-    margin-bottom: 15px;
+  color: #6d2c2c;
+  font-size: 52px;
+  letter-spacing: 4px;
+  text-shadow: 3px 3px rgba(227, 213, 187, 0.4);
+  margin-bottom: 25px;
 }
 
 .title h3 {
-    color: #6d2c2c;
-    font-size: 22px;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px rgba(227, 213, 187, 0.4);
-    margin-top: -20px;
+  color: #6d2c2c;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px rgba(227, 213, 187, 0.4);
+  margin-top: -20px;
 }
 
-.star {
-    width: 90px;
-    margin: 10px 5px -60px;
-}
-
-.starS {
-    width: 70px;
-    padding-bottom: 10px;
-}
-
-.mainpage {
-    /* background-color: #fbeed6; */
+.mainpage-right {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    justify-self: center;
-    margin-top: 30px;
-    max-width: 95%;
-}
-
-.mainpage h2 {
-    margin-top: 40px;
+    flex-flow: column wrap;
 }
 
 .btn-case {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    margin-top: 15px;
-    margin-bottom: 30px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  /* margin-top: 15px;
+  margin-bottom: 30px; */
 }
 
 .left-btn {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .btn {
-    background-color: rgba(194, 212, 223, 0.85);
-    box-shadow: 7px 5px 0px #6d2c2c;
-    border-radius: 10px;
-    border: none;
-    color: #6d2c2c;
-    cursor: pointer;
-    letter-spacing: 4px;
-    font-size: 27px;
-    font-weight: 600;
-    padding: 8px 20px;
-    height: 80px;
-    width: 20rem;
+  background-color: rgba(194, 212, 223, 0.85);
+  box-shadow: 7px 5px 0px #6d2c2c;
+  border-radius: 10px;
+  border: none;
+  color: #6d2c2c;
+  cursor: pointer;
+  letter-spacing: 4px;
+  font-size: 27px;
+  font-weight: 600;
+  padding: 8px 20px;
+  height: 80px;
+  width: 20rem;
 }
 
 .btn:hover {
-    letter-spacing: 6px;
-    background-color: rgba(194, 212, 223, 0.95);
+  letter-spacing: 6px;
+  background-color: rgba(194, 212, 223, 0.95);
 }
 
 h2 {
-    color: #6d2c2c;
-    font-size: 35px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+  color: #6d2c2c;
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
 }

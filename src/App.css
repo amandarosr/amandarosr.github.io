@@ -1,21 +1,24 @@
 @font-face {
-    font-family: MainFont;
-    src: url(./extra/TT\ Fors\ Trial\ Regular.ttf);
+  font-family: MainFont;
+  src: url(./extra/TT\ Fors\ Trial\ Regular.ttf);
 }
 
 html {
-    scrollbar-width: none;
+  scrollbar-width: none;
 }
 
 body {
-    /* background-color: #; */
-    color: rgb(38, 32, 32);
-    font-family: MainFont;
-    overflow-x: hidden;
-    text-align: center;
-    margin: 0;
+  background-image: url("./extra/halycon\ sunset.jpeg");
+  background-size: contain;
+  background-position: 50%;
+  background-attachment: fixed;
+  color: rgb(38, 32, 32);
+  font-family: MainFont;
+  overflow-x: hidden;
+  text-align: center;
+  margin: 0;
 }
 
 button {
-    font-family: MainFont;
+  font-family: MainFont;
 }
