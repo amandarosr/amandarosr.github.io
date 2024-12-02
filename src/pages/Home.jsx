@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "../style/Home.css";
 import Contact from "../components/Contact";
 import Skills from "../components/Skills";
+import star from "../extra/star.png";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -12,8 +13,9 @@ export default function Home() {
       <div className="mainpage-left">
         <div className="top">
           <div className="title">
+            <img src={star} alt="star" id="star" />
             <h1 id="nome">Amanda Rodrigues</h1>
-            <h3 id="descricao">desenvolvedora front-end</h3>
+            <h3 id="descricao">Desenvolvedora Front-End</h3>
           </div>
         </div>
         <Contact />
