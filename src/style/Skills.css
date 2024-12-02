@@ -1,0 +1,46 @@
+.habil {
+  background-color: rgb(251, 238, 214, 0.95);
+  box-shadow: 10px 8px 0px #6d2c2c;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0;
+  overflow-y: scroll;
+  margin: 0 20px 30px;
+  height: 30rem;
+  max-width: 30rem;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.mouseOver {
+  margin-top: -5px;
+  font-weight: 600;
+  color: #6d2c2c;
+}
+
+.habil-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+.habil-list li {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 7px;
+}
+
+.redux {
+  height: 90px;
+}
+
+.logos {
+  padding: 8px 5px;
+  height: 6rem;
+  width: 6rem;
+}
