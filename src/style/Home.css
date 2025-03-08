@@ -37,12 +37,16 @@
 }
 
 .top {
+  background-image: url('../extra/orbit.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 450px;
   border-radius: 10px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
-  margin: 10px 0 25px;
+  /* margin: 0 0 10px; */
   padding: 0 30px;
   height: 22rem;
   width: min(25rem, 80%);
@@ -53,9 +57,9 @@
 }
 
 #star {
-  background-color: rgb(109, 44, 44, 0.8);
+  background-color: rgb(109, 44, 44, 0.75);
   border-radius: 100px;
-  padding: 10px;
+  padding: 5px;
   height: 110px;
   margin-bottom: -35px;
 }
@@ -70,7 +74,7 @@
 
 .title h3 {
   color: rgb(251, 238, 214, 0.85); 
-  text-shadow: 3px 3px rgb(109, 44, 44, 0.7);
+  text-shadow: 2px 2px rgb(109, 44, 44, 0.7);
   font-size: 20px;
   letter-spacing: 2px;
   margin-top: -20px;
@@ -81,8 +85,8 @@
   flex-flow: row wrap;
   justify-content: space-around;
   font-weight: 600;
-  margin: 30px 0;
-  width: 100%;
+  margin-top: 20px;
+  width: 95%;
 }
 
 .btn {
@@ -97,7 +101,7 @@
   font-weight: 600;
   padding: 8px 10px;
   height: 70px;
-  width: 40%;
+  width: 42%;
 }
 
 .btn:hover {
@@ -107,6 +111,7 @@
 
 h2 {
   color: #6d2c2c;
+  text-shadow:1px 1px rgba(124, 145, 158, 0.4);
   font-size: 35px;
   letter-spacing: 2px;
   margin-bottom: 10px;

@@ -13,11 +13,14 @@ import hooks from "../extra/hook.png";
 import api from "../extra/api.png";
 import github from "../extra/github.png";
 import figma from "../extra/figma.png";
+import scrum from "../extra/scrum.png";
+import rtl from "../extra/rtl.png";
+import context from "../extra/context.png";
 
 export default function Skills() {
   return (
     <div className="habil">
-      <h2>conhecimentos</h2>
+      <h2 className="skills-title">conhecimentos</h2>
       <p className="mouseOver">(Passe o mouse sobre a imagem)</p>
       <ul className="habil-list">
         <li>
@@ -51,11 +54,6 @@ export default function Skills() {
           </Tooltip>
         </li>
         <li>
-          <Tooltip title="Jest">
-            <img src={jest} alt="jest" id="jest" className="logos" />
-          </Tooltip>
-        </li>
-        <li>
           <Tooltip title="GitHub">
             <img src={github} alt="github" id="github" className="logos" />
           </Tooltip>
@@ -66,12 +64,32 @@ export default function Skills() {
           </Tooltip>
         </li>
         <li>
+          <Tooltip title="Scrum">
+            <img src={scrum} alt="scrum" id="scrum" className="logos" />
+          </Tooltip>
+        </li>
+        <li>
+          <Tooltip title="Jest">
+            <img src={jest} alt="jest" id="jest" className="logos" />
+          </Tooltip>
+        </li>
+        <li>
+          <Tooltip title="React Testing Library">
+            <img src={rtl} alt="rtl" id="rtl" className="logos" />
+          </Tooltip>
+        </li>
+        <li>
           <Tooltip title="React Hooks">
             <img src={hooks} alt="hooks" id="hooks" className="logos" />
           </Tooltip>
         </li>
         <li>
-          <Tooltip title="APIs">
+          <Tooltip title="Context API">
+            <img src={context} alt="context" id="context" className="logos" />
+          </Tooltip>
+        </li>
+        <li>
+          <Tooltip title="REST APIs">
             <img src={api} alt="api" id="api" className="logos" />
           </Tooltip>
         </li>
