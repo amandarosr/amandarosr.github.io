@@ -1,13 +1,14 @@
 .contato {
-  background-color: rgb(251, 238, 214, 0.95);
-  box-shadow: 10px 8px 0px #6d2c2c;
-  border-radius: 10px;
+  background-color: rgb(251, 238, 214, 0.9);
+  box-shadow: 10px 8px 0px rgb(109, 44, 44, 0.8);
+  border-radius: 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 23rem;
+  width: min(25rem, 80%);
+  padding: 0 30px;
   height: 16rem;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 
 #emailBtn {

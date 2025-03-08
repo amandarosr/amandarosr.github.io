@@ -1,17 +1,22 @@
 .habil {
-  background-color: rgb(251, 238, 214, 0.95);
-  box-shadow: 10px 8px 0px #6d2c2c;
+  /* background-color: rgb(251, 238, 214, 0.9);
+  box-shadow: 10px 8px 0px #6d2c2c; */
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 8px 0;
   overflow-y: scroll;
-  margin: 0 20px 30px;
+  margin: 0 15px 20px;
   height: 32rem;
-  max-width: 29rem;
   scroll-behavior: smooth;
+  scrollbar-width: thin;
   scrollbar-color: #fbeed6 #6d2c2c ;
+}
+
+.habil h2 {
+  color:rgb(251, 238, 214, 0.85);
+  text-shadow: 3px 3px rgb(109, 44, 44, 0.7);
 }
 
 .mouseOver {
