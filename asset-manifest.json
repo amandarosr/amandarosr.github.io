@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.69c39d87.css",
-    "main.js": "/static/js/main.3eaae25f.js",
+    "main.css": "/static/css/main.5b15764b.css",
+    "main.js": "/static/js/main.42ea279c.js",
     "static/media/halycon sunset.jpeg": "/static/media/halycon sunset.8894208adf55fc52f728.jpeg",
     "static/media/orbit.png": "/static/media/orbit.2a0c59647f92cd758dcd.png",
     "static/media/redux.png": "/static/media/redux.82c6f00a89f29440515c.png",
@@ -11,11 +11,11 @@
     "static/media/Glastone-Regular.otf": "/static/media/Glastone-Regular.93716dd3a28ac97fd1bf.otf",
     "static/media/jest.webp": "/static/media/jest.8c928f64502240cce854.webp",
     "index.html": "/index.html",
-    "main.69c39d87.css.map": "/static/css/main.69c39d87.css.map",
-    "main.3eaae25f.js.map": "/static/js/main.3eaae25f.js.map"
+    "main.5b15764b.css.map": "/static/css/main.5b15764b.css.map",
+    "main.42ea279c.js.map": "/static/js/main.42ea279c.js.map"
   },
   "entrypoints": [
-    "static/css/main.69c39d87.css",
-    "static/js/main.3eaae25f.js"
+    "static/css/main.5b15764b.css",
+    "static/js/main.42ea279c.js"
   ]
 }
