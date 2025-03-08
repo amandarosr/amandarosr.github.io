@@ -1,23 +1,24 @@
 .habil {
-  background-color: rgb(251, 238, 214, 0.95);
-  box-shadow: 10px 8px 0px #6d2c2c;
-  border-radius: 10px;
+  border-radius: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 8px 0;
-  overflow-y: scroll;
-  margin: 0 20px 30px;
-  height: 32rem;
-  max-width: 29rem;
-  scroll-behavior: smooth;
-  scrollbar-color: #fbeed6 #6d2c2c ;
+  margin: 10px 15px 20px;
+  height: 42rem;
+}
+
+.skills-title {
+  color:rgb(251, 238, 214, 0.85);
+  text-shadow: 3px 2px rgb(109, 44, 44, 0.8);
+  /* margin-left: 15px; */
 }
 
 .mouseOver {
   margin-top: -5px;
   font-weight: 600;
   color: #6d2c2c;
+  text-shadow: 1px 1px rgba(124, 145, 158, 0.5);
 }
 
 .habil-list {
@@ -27,6 +28,10 @@
   align-items: center;
   list-style-type: none;
   margin-left: -20px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-color: #fbeed6 #6d2c2c ;
 }
 
 .habil-list li {

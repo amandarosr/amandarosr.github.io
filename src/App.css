@@ -18,7 +18,7 @@ body {
   font-family: MainFont;
   overflow-x: hidden;
   text-align: center;
-  margin-top: -20px;
+  margin: 0;
 }
 
 button {
