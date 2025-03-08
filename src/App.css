@@ -4,7 +4,9 @@
 }
 
 html {
-  scrollbar-width: none;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-color: #fbeed6 #6d2c2c ;
 }
 
 body {

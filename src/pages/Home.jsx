@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <div className="fullpage">
-      <div className="mainpage-left">
+      <div className="mainpage-top">
         <div className="btn-case">
           <button className="left-btn btn" onClick={inDevelopmentAlert}>
             projetos
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <Contact />
       </div>
-      <div className="mainpage-right">
+      <div className="mainpage-bottom">
         <Skills />
       </div>
     </div>

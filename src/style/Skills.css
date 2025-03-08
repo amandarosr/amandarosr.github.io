@@ -28,10 +28,6 @@
   align-items: center;
   list-style-type: none;
   margin-left: -20px;
-  overflow-y: scroll;
-  scrollbar-width: thin;
-  scroll-behavior: smooth;
-  scrollbar-color: #fbeed6 #6d2c2c ;
 }
 
 .habil-list li {
