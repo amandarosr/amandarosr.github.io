@@ -1,23 +1,31 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import "../style/Home.css";
 import Contact from "../components/Contact";
 import Skills from "../components/Skills";
+import Swal from "sweetalert2";
 
 export default function Home() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
+
+  const inDevelopmentAlert = () => {
+    Swal.fire({
+      position: "top",
+      title: "Em desenvolvimento",
+      icon: "warning",
+      timer: 1500,
+      showConfirmButton: false,
+    });
+  };
 
   return (
     <div className="fullpage">
       <div className="mainpage-left">
         <div className="btn-case">
-          <button
-            className="left-btn btn"
-            onClick={() => navigate("/projects")}
-          >
+          <button className="left-btn btn" onClick={inDevelopmentAlert}>
             projetos
           </button>
-          <button onClick={() => navigate("/cases")} className="btn">
+          <button onClick={inDevelopmentAlert} className="btn">
             cases
           </button>
         </div>
