@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/Cases.css';
 import { useNavigate } from 'react-router-dom';
-import arrow from '../extra/arrow-right.png';
+// import arrow from '../extra/arrow-right.png';
 
 export default function Cases() {
   const navigate = useNavigate();
