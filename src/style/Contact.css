@@ -7,7 +7,7 @@
   align-items: center;
   width: min(25rem, 80%);
   padding: 0 30px 10px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 #emailBtn {
@@ -25,16 +25,18 @@
   margin-top: 10px;
 }
 
-.c-logos:hover {
-  cursor: pointer;
-}
-
 .c-logos {
   height: 45px;
-  width: 45px;
   margin: 20px;
 }
 
 .linked {
   padding-bottom: 8px;
+}
+
+@media screen and (max-width: 800px) {
+  .c-logos {
+    height: 35px;
+    margin: 15px;
+  }
 }

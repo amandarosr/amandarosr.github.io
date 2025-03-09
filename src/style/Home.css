@@ -24,7 +24,7 @@
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  margin: 30px;
+  margin: 20px;
   width: min(30rem, 85%);
 }
 
@@ -117,8 +117,20 @@ h2 {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 800px) {
   .fullpage {
     height: 100%;
+  }
+
+  .top {
+    background-size: 350px;
+  }
+
+  .title h3 {
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 22px;
   }
 }
