@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   font-family: MainFont;
   src: url(./extra/Glastone-Regular.otf);
-}
+} */
 
 html {
   scrollbar-width: thin;
@@ -10,19 +10,16 @@ html {
 }
 
 body {
-  background-image: url("./extra/halycon\ sunset.jpeg");
-  background-size: contain;
-  background-position: 50%;
-  background-attachment: fixed;
+  background-color: #E6E8FF;
   color: rgb(38, 32, 32);
   display: flex;
   justify-content: center;
-  font-family: MainFont;
+  /* font-family: MainFont; */
   overflow-x: hidden;
   text-align: center;
   margin: 0;
 }
 
-button {
+/* button {
   font-family: MainFont;
-}
+} */

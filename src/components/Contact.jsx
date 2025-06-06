@@ -21,8 +21,6 @@ export default function Contact() {
 
   return (
     <div className="contato" id="contato">
-      <h2>contato</h2>
-      <p className="mouseOver">(Clique no e-mail para copiar o endereço)</p>
       <div className="c-info">
         <button id="emailBtn" onClick={copyEmail}>
           <img src={gmail} alt="gmail" className="c-logos" />
