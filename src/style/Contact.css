@@ -1,13 +1,7 @@
 .contato {
-  background-color: rgb(251, 238, 214, 0.85);
-  box-shadow: 10px 8px 0px rgb(109, 44, 44, 0.8);
-  border-radius: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: min(25rem, 80%);
-  padding: 0 30px 10px;
-  /* margin-bottom: 10px; */
 }
 
 #emailBtn {
@@ -20,23 +14,34 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: larger;
-  font-family: Recoleta;
   margin-top: 10px;
 }
 
 .c-logos {
   height: 45px;
-  margin: 20px;
+  margin: 20px 15px;
+  cursor: pointer;
 }
 
 .linked {
-  padding-bottom: 8px;
+  height: 48px;
+}
+
+.githubC {
+  margin-top: 25px;
 }
 
 @media screen and (max-width: 800px) {
   .c-logos {
-    height: 35px;
-    margin: 15px;
+    height: 30px;
+    margin: 10px;
+  }
+
+  .githubC {
+  margin-top: 18px;
+}
+
+  .linked {
+    height: 33px;
   }
 }

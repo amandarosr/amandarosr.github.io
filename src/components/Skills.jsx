@@ -16,12 +16,12 @@ import figma from "../extra/figma.png";
 import scrum from "../extra/scrum.png";
 import rtl from "../extra/rtl.png";
 import context from "../extra/context.png";
+import next from "../extra/next.png";
 
 export default function Skills() {
   return (
-    <div className="habil">
+    <div className="habil" id="skills">
       <h2 className="skills-title">conhecimentos</h2>
-      <p className="mouseOver">(Passe o mouse sobre a imagem)</p>
       <ul className="habil-list">
         <li>
           <Tooltip title="HTML5">
@@ -51,6 +51,11 @@ export default function Skills() {
         <li>
           <Tooltip title="Redux">
             <img src={redux} alt="redux" className="logos redux" />
+          </Tooltip>
+        </li>
+        <li>
+          <Tooltip title="Next.js">
+            <img src={next} alt="next" id="next" className="logos" />
           </Tooltip>
         </li>
         <li>
