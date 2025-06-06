@@ -1,14 +1,29 @@
-.arrow {
-    height: 100px;
-    width: 100px;
+#cases {
+    margin: 60px 0 30px;
 }
 
-.back-btn {
-    background: none;
-    border: 0;
+.cases-div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px 0 60px;
 }
 
-.arrow:hover {
-    height: 93px;
-    width: 93px;
+.siteInfo {
+    display: flex;
+    flex-direction: column;
+    font-family: TypeWriter;
+    margin: 0 20px 40px;
+}
+
+.siteInfo a {
+    color: #F04702;
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.siteInfo img {
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 650px;
 }

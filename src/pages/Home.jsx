@@ -25,6 +25,7 @@ export default function Home() {
         <Skills />
         <CasesProjects />
       </div>
+      <footer />
     </div>
   );
 }
