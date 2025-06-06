@@ -5,19 +5,16 @@
   align-items: center;
   padding: 8px 0;
   margin: 5px 15px 20px;
-  /* height: 42rem; */
 }
 
 .skills-title {
-  color:rgb(251, 238, 214, 0.85);
-  text-shadow: 3px 2px rgb(109, 44, 44, 0.8);
+  color: #F04702;
 }
 
 .mouseOver {
   margin-top: -5px;
   font-weight: 600;
-  color: #6d2c2c;
-  text-shadow: 1px 1px rgba(124, 145, 158, 0.5);
+  color: #F04702;
 }
 
 .habil-list {
@@ -26,7 +23,7 @@
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  margin-left: -20px;
+  width: 60%;
 }
 
 .habil-list li {

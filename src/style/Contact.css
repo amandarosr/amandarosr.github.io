@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: min(25rem, 80%);
-  padding: 0 30px 10px;
 }
 
 #emailBtn {
@@ -16,23 +14,34 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: larger;
-  font-family: Recoleta;
   margin-top: 10px;
 }
 
 .c-logos {
   height: 45px;
-  margin: 20px;
+  margin: 20px 15px;
+  cursor: pointer;
 }
 
 .linked {
-  padding-bottom: 8px;
+  height: 48px;
+}
+
+.githubC {
+  margin-top: 25px;
 }
 
 @media screen and (max-width: 800px) {
   .c-logos {
-    height: 35px;
-    margin: 15px;
+    height: 30px;
+    margin: 10px;
+  }
+
+  .githubC {
+  margin-top: 18px;
+}
+
+  .linked {
+    height: 33px;
   }
 }

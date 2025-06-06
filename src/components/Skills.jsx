@@ -19,9 +19,8 @@ import context from "../extra/context.png";
 
 export default function Skills() {
   return (
-    <div className="habil">
+    <div className="habil" id="skills">
       <h2 className="skills-title">conhecimentos</h2>
-      <p className="mouseOver">(Passe o mouse sobre a imagem)</p>
       <ul className="habil-list">
         <li>
           <Tooltip title="HTML5">

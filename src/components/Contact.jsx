@@ -37,7 +37,7 @@ export default function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={git} alt="git" className="c-logos" />
+          <img src={git} alt="git" className="c-logos githubC" />
         </a>
       </div>
     </div>
