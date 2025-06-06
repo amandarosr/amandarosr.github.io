@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.99ba5759.css",
-    "main.js": "/static/js/main.42ea279c.js",
-    "static/media/halycon sunset.jpeg": "/static/media/halycon sunset.8894208adf55fc52f728.jpeg",
-    "static/media/orbit.png": "/static/media/orbit.2a0c59647f92cd758dcd.png",
+    "main.css": "/static/css/main.eea805af.css",
+    "main.js": "/static/js/main.24c05687.js",
+    "static/media/fake-store.png": "/static/media/fake-store.2aeabc41405eb7edc35f.png",
+    "static/media/pixel-art.png": "/static/media/pixel-art.7e51f9a44277ce4b123b.png",
+    "static/media/Type Machine.ttf": "/static/media/Type Machine.6326e0da1f05f14b5262.ttf",
+    "static/media/Aesthetic-Regular.otf": "/static/media/Aesthetic-Regular.8a4496fa25db865ca707.otf",
     "static/media/redux.png": "/static/media/redux.82c6f00a89f29440515c.png",
+    "static/media/next.png": "/static/media/next.49309b4c7ade3b6b9c1a.png",
     "static/media/rtl.png": "/static/media/rtl.37b4c997ae1d792e3020.png",
     "static/media/context.png": "/static/media/context.a846a6bda716a670754f.png",
     "static/media/scrum.png": "/static/media/scrum.129218f6500aa39b3d24.png",
-    "static/media/Glastone-Regular.otf": "/static/media/Glastone-Regular.93716dd3a28ac97fd1bf.otf",
+    "static/media/git.png": "/static/media/git.69159948981cb4d2a0e8.png",
     "static/media/jest.webp": "/static/media/jest.8c928f64502240cce854.webp",
     "index.html": "/index.html",
-    "main.99ba5759.css.map": "/static/css/main.99ba5759.css.map",
-    "main.42ea279c.js.map": "/static/js/main.42ea279c.js.map"
+    "main.eea805af.css.map": "/static/css/main.eea805af.css.map",
+    "main.24c05687.js.map": "/static/js/main.24c05687.js.map"
   },
   "entrypoints": [
-    "static/css/main.99ba5759.css",
-    "static/js/main.42ea279c.js"
+    "static/css/main.eea805af.css",
+    "static/js/main.24c05687.js"
   ]
 }
