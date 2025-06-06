@@ -6,7 +6,7 @@ import pixelArt from "../extra/pixel-art.png";
 export default function CasesProjects() {
   return (
     <div>
-      <h2 id="cases">Cases</h2>
+      <h2 id="cases">cases e projetos</h2>
       <div className="cases-div">
         <div className="siteInfo">
           <img src={fakeStore} alt="sitePrint" />
@@ -28,9 +28,6 @@ export default function CasesProjects() {
             Pixel Art
           </a>
         </div>
-      </div>
-      <div>
-        <h2 id="projetos">Projetos</h2>
       </div>
     </div>
   );

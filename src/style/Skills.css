@@ -1,10 +1,11 @@
 .habil {
-  border-radius: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 8px 0;
-  margin: 5px 15px 20px;
+  border-top: dashed 2px #F04702;
+  margin: 20px 15px;
+  width: 80%;
 }
 
 .skills-title {
@@ -23,7 +24,7 @@
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  width: 60%;
+  width: 80%;
 }
 
 .habil-list li {
@@ -44,5 +45,9 @@
 @media screen and (max-width: 800px) {
   .logos {
     height: 5rem;
+  }
+
+  .habil-list {
+    width: 90%;
   }
 }

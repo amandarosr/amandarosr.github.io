@@ -18,17 +18,17 @@
 }
 
 .c-logos {
-  height: 45px;
+  height: 50px;
   margin: 20px 15px;
   cursor: pointer;
 }
 
 .linked {
-  height: 48px;
+  height: 52px;
 }
 
 .githubC {
-  margin-top: 25px;
+  margin-top: 28px;
 }
 
 @media screen and (max-width: 800px) {
