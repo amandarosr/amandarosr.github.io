@@ -3,12 +3,6 @@
   src: url(./extra/Aesthetic-Regular.otf);
 }
 
-/* html {
-  scrollbar-width: thin;
-  scroll-behavior: smooth;
-  scrollbar-color: #fbeed6 #6d2c2c ;
-} */
-
 body {
   background-color: #E6E8FF;
   color: rgb(38, 32, 32);

@@ -3,6 +3,7 @@ import "../style/Home.css";
 import Contact from "../components/Contact";
 import Skills from "../components/Skills";
 import CasesProjects from "../components/CasesProjects";
+import marker from "../style/marker.png";
 
 export default function Home() {
   return (
@@ -21,8 +22,10 @@ export default function Home() {
         <a href="#cases">cases</a>
         <a href="#projects">projetos</a>
       </div>
+      <img src={marker} alt="divider" className="marker" />
       <div className="mainpage-bottom">
         <Skills />
+        <img src={marker} alt="divider" className="marker" />
         <CasesProjects />
       </div>
       <footer />

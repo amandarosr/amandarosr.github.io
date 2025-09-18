@@ -4,12 +4,10 @@
 }
 
 .fullpage {
-  backdrop-filter: blur(5px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
 }
 
 header {
@@ -113,7 +111,13 @@ header {
   font-size: 28px;
 }
 
+.marker {
+  height: 120px;
+  width: 550px;
+}
+
 .mainpage-bottom {
+  /* background-color: red; */
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -122,11 +126,8 @@ header {
 h2 {
   color: #F04702;
   text-shadow:1px 1px rgba(124, 145, 158, 0.4);
-  font-size: 35px;
-  font-family: TypeWriter;
-  font-weight: 100;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
+  font-size: 38px;
+  letter-spacing: 3px;
 }
 
 footer {
