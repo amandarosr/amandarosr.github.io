@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.33b8b679.css",
-    "main.js": "/static/js/main.5203ddc7.js",
+    "main.css": "/static/css/main.db4e09a1.css",
+    "main.js": "/static/js/main.12761e8c.js",
     "static/media/fake-store.png": "/static/media/fake-store.2aeabc41405eb7edc35f.png",
+    "static/media/recipes.png": "/static/media/recipes.59d9e4c88243d70ec2c3.png",
     "static/media/pixel-art.png": "/static/media/pixel-art.7e51f9a44277ce4b123b.png",
     "static/media/Type Machine.ttf": "/static/media/Type Machine.6326e0da1f05f14b5262.ttf",
     "static/media/Aesthetic-Regular.otf": "/static/media/Aesthetic-Regular.8a4496fa25db865ca707.otf",
+    "static/media/ewallet.png": "/static/media/ewallet.7197a7fed52651904f84.png",
     "static/media/redux.png": "/static/media/redux.82c6f00a89f29440515c.png",
     "static/media/next.png": "/static/media/next.49309b4c7ade3b6b9c1a.png",
     "static/media/rtl.png": "/static/media/rtl.37b4c997ae1d792e3020.png",
@@ -14,11 +16,11 @@
     "static/media/git.png": "/static/media/git.69159948981cb4d2a0e8.png",
     "static/media/jest.webp": "/static/media/jest.8c928f64502240cce854.webp",
     "index.html": "/index.html",
-    "main.33b8b679.css.map": "/static/css/main.33b8b679.css.map",
-    "main.5203ddc7.js.map": "/static/js/main.5203ddc7.js.map"
+    "main.db4e09a1.css.map": "/static/css/main.db4e09a1.css.map",
+    "main.12761e8c.js.map": "/static/js/main.12761e8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.33b8b679.css",
-    "static/js/main.5203ddc7.js"
+    "static/css/main.db4e09a1.css",
+    "static/js/main.12761e8c.js"
   ]
 }
