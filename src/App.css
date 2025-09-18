@@ -3,20 +3,13 @@
   src: url(./extra/Aesthetic-Regular.otf);
 }
 
-/* html {
-  scrollbar-width: thin;
-  scroll-behavior: smooth;
-  scrollbar-color: #fbeed6 #6d2c2c ;
-} */
-
 body {
-  background-color: #E6E8FF;
-  color: rgb(38, 32, 32);
+  background-color: #d8d0fd;
   display: flex;
   justify-content: center;
   font-family: MainFont;
-  overflow-x: hidden;
   text-align: center;
+  overflow-x: hidden;
   margin: 0;
 }
 

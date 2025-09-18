@@ -2,35 +2,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8px 0;
-  border-top: dashed 2px #F04702;
-  margin: 20px 15px;
-  width: 80%;
+  margin: 16px;
 }
 
 .skills-title {
-  color: #F04702;
+  color: #f04702;
 }
 
 .mouseOver {
   margin-top: -5px;
   font-weight: 600;
-  color: #F04702;
+  color: #f04702;
 }
 
 .habil-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   list-style-type: none;
-  width: 80%;
+  width: 65%;
 }
 
 .habil-list li {
   display: flex;
   flex-direction: column;
-  margin: 8px 7px;
+  margin: 8px;
 }
 
 .redux {
@@ -38,16 +35,18 @@
 }
 
 .logos {
-  padding: 8px 5px;
+  padding: 5px;
   height: 6rem;
 }
 
 @media screen and (max-width: 800px) {
   .logos {
     height: 5rem;
+    padding: 3px;
   }
 
   .habil-list {
-    width: 90%;
+    padding-left: 0;
+    width: 95%;
   }
 }

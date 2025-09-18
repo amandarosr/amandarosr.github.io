@@ -4,7 +4,6 @@
 }
 
 .fullpage {
-  backdrop-filter: blur(5px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,7 +65,7 @@ header {
 .title h1 {
   color: #F04702;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.19);
-  font-size: 10vw;
+  font-size: 9.5vw;
   letter-spacing: 4px;
   margin: 60px 0;
   width: 60%;
@@ -84,7 +83,7 @@ header {
   margin: 0 auto;
   filter: blur(40px);
   transform: scale(1.2);
-  background: linear-gradient(90deg, #E6E8FF, #c9ceff);
+  background: linear-gradient(90deg, #d8d0fd, #dccdff);
   background-size: 150% 150%;
   animation: animateGlow 2s linear infinite;
 }
@@ -113,6 +112,11 @@ header {
   font-size: 28px;
 }
 
+.marker {
+  height: 120px;
+  width: 550px;
+}
+
 .mainpage-bottom {
   display: flex;
   flex-flow: column wrap;
@@ -122,11 +126,8 @@ header {
 h2 {
   color: #F04702;
   text-shadow:1px 1px rgba(124, 145, 158, 0.4);
-  font-size: 35px;
-  font-family: TypeWriter;
-  font-weight: 100;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
+  font-size: 38px;
+  letter-spacing: 3px;
 }
 
 footer {
@@ -166,6 +167,27 @@ footer {
 
   #descricao {
     font-size: 18px;
+  }
+
+  .title h1 {
+    font-size: 50px;
+  }
+
+  .btn-div {
+    margin: 0 0 20px 10px;
+  }
+
+  .btn-div a {
+    margin: 10px 5px;
+  }
+  
+  .marker {
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin: 15px 0;
   }
 
   .btn-div a  {
