@@ -83,7 +83,7 @@ header {
   margin: 0 auto;
   filter: blur(40px);
   transform: scale(1.2);
-  background: linear-gradient(90deg, #d8d0fd, #c2b0ea);
+  background: linear-gradient(90deg, #d8d0fd, #dccdff);
   background-size: 150% 150%;
   animation: animateGlow 2s linear infinite;
 }

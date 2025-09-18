@@ -19,9 +19,9 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   list-style-type: none;
-  width: 75%;
+  width: 65%;
 }
 
 .habil-list li {

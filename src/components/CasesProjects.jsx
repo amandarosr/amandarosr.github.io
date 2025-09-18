@@ -2,6 +2,8 @@ import React from "react";
 import "../style/CasesProjects.css";
 import fakeStore from "../extra/fake-store.png";
 import pixelArt from "../extra/pixel-art.png";
+import recipes from "../extra/recipes.png";
+import ewallet from "../extra/ewallet.png";
 import marker from "../style/marker.png";
 import click from "../style/click.png";
 
@@ -30,6 +32,28 @@ export default function CasesProjects() {
           >
             <img src={click} alt="mouse-icon" className="click" />
             Pixel Art
+          </a>
+        </div>
+        <div className="siteInfo">
+          <img src={recipes} alt="sitePrint" className="screenshot" />
+          <a
+            href="https://amandarosr.github.io/recipes-app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={click} alt="mouse-icon" className="click" />
+            Recipes App
+          </a>
+        </div>
+        <div className="siteInfo">
+          <img src={ewallet} alt="sitePrint" className="screenshot" />
+          <a
+            href="https://amandarosr.github.io/e-wallet/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={click} alt="mouse-icon" className="click" />
+            e-Wallet
           </a>
         </div>
       </div>
