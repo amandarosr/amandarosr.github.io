@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.db4e09a1.css",
-    "main.js": "/static/js/main.12761e8c.js",
+    "main.css": "/static/css/main.1babb682.css",
+    "main.js": "/static/js/main.49e187ac.js",
     "static/media/fake-store.png": "/static/media/fake-store.2aeabc41405eb7edc35f.png",
     "static/media/recipes.png": "/static/media/recipes.59d9e4c88243d70ec2c3.png",
+    "static/media/trivia-master.png": "/static/media/trivia-master.5b50717e7c70cccd8b3b.png",
     "static/media/pixel-art.png": "/static/media/pixel-art.7e51f9a44277ce4b123b.png",
     "static/media/Type Machine.ttf": "/static/media/Type Machine.6326e0da1f05f14b5262.ttf",
     "static/media/Aesthetic-Regular.otf": "/static/media/Aesthetic-Regular.8a4496fa25db865ca707.otf",
@@ -16,11 +17,11 @@
     "static/media/git.png": "/static/media/git.69159948981cb4d2a0e8.png",
     "static/media/jest.webp": "/static/media/jest.8c928f64502240cce854.webp",
     "index.html": "/index.html",
-    "main.db4e09a1.css.map": "/static/css/main.db4e09a1.css.map",
-    "main.12761e8c.js.map": "/static/js/main.12761e8c.js.map"
+    "main.1babb682.css.map": "/static/css/main.1babb682.css.map",
+    "main.49e187ac.js.map": "/static/js/main.49e187ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.db4e09a1.css",
-    "static/js/main.12761e8c.js"
+    "static/css/main.1babb682.css",
+    "static/js/main.49e187ac.js"
   ]
 }
