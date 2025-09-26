@@ -4,13 +4,13 @@
 }
 
 body {
-  background-color: #d8d0fd;
+  background-color: #d4c9ef;
   display: flex;
   justify-content: center;
   font-family: MainFont;
   text-align: center;
   overflow-x: hidden;
-  margin: 0;
+  margin-top: 20px;
 }
 
 /* button {

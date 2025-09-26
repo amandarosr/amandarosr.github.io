@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/Skills.css";
 import Tooltip from "@mui/material/Tooltip";
+// import marker from "../style/marker.png";
 import html5 from "../extra/html-5.png";
 import css from "../extra/css.png";
 import js from "../extra/javascript.png";
@@ -21,7 +22,7 @@ import next from "../extra/next.png";
 export default function Skills() {
   return (
     <div className="habil" id="skills">
-      <h2 className="skills-title">conhecimentos</h2>
+      <h2 className="skills-title subtitle">conhecimentos</h2>
       <ul className="habil-list">
         <li>
           <Tooltip title="HTML5">
