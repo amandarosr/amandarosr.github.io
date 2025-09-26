@@ -4,13 +4,13 @@ import fakeStore from "../extra/fake-store.png";
 import pixelArt from "../extra/pixel-art.png";
 import recipes from "../extra/recipes.png";
 import ewallet from "../extra/ewallet.png";
-import marker from "../style/marker.png";
+import trivia from "../extra/trivia-master.png";
 import click from "../style/click.png";
 
 export default function CasesProjects() {
   return (
-    <div>
-      <h2 id="cases">cases</h2>
+    <div className="habil">
+      <h2 id="cases" className="subtitle">cases</h2>
       <div className="cases-div">
         <div className="siteInfo">
           <img src={fakeStore} alt="sitePrint" className="screenshot" />
@@ -56,9 +56,19 @@ export default function CasesProjects() {
             e-Wallet
           </a>
         </div>
+        <div className="siteInfo">
+          <img src={trivia} alt="sitePrint" className="screenshot" />
+          <a
+            href="https://amandarosr.github.io/trivia-master/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={click} alt="mouse-icon" className="click" />
+            Trivia Master
+          </a>
+        </div>
       </div>
-      <img src={marker} alt="divider" className="marker" />
-      <h2 id="projects">projetos</h2>
+      <h2 id="projects" className="subtitle">projetos</h2>
       {/* <div className="cases-div">
 
       </div> */}
