@@ -6,6 +6,7 @@ import recipes from "../extra/recipes.png";
 import ewallet from "../extra/ewallet.png";
 import trivia from "../extra/trivia-master.png";
 import click from "../style/click.png";
+import petPC from "../extra/pet-pc.png";
 
 export default function CasesProjects() {
   return (
@@ -46,14 +47,14 @@ export default function CasesProjects() {
           </a>
         </div>
         <div className="siteInfo">
-          <img src={ewallet} alt="sitePrint" className="screenshot" />
+          <img src={petPC} alt="sitePrint" className="screenshot" />
           <a
-            href="https://amandarosr.github.io/e-wallet/"
+            href="https://amandarosr.github.io/pet-pc/"
             target="_blank"
             rel="noreferrer"
           >
             <img src={click} alt="mouse-icon" className="click" />
-            e-Wallet
+            Pet PC
           </a>
         </div>
         <div className="siteInfo">
@@ -65,6 +66,17 @@ export default function CasesProjects() {
           >
             <img src={click} alt="mouse-icon" className="click" />
             Trivia Master
+          </a>
+        </div>
+        <div className="siteInfo">
+          <img src={ewallet} alt="sitePrint" className="screenshot" />
+          <a
+            href="https://amandarosr.github.io/e-wallet/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={click} alt="mouse-icon" className="click" />
+            e-Wallet
           </a>
         </div>
       </div>
