@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.174faff7.css",
-    "main.js": "/static/js/main.7b6bac4d.js",
+    "main.js": "/static/js/main.72498a61.js",
     "static/media/fake-store.png": "/static/media/fake-store.2aeabc41405eb7edc35f.png",
     "static/media/trivia-master.png": "/static/media/trivia-master.adabc6ded740e31634a5.png",
     "static/media/pet-pc.png": "/static/media/pet-pc.3f0bf60671b924bcf610.png",
-    "static/media/pixel-art.png": "/static/media/pixel-art.db23ab5d366a3dd0104b.png",
-    "static/media/ewallet.png": "/static/media/ewallet.c02765aa859ca3d28af5.png",
+    "static/media/ewallet.png": "/static/media/ewallet.1e868cbbd7d24d8ed8d1.png",
+    "static/media/pixel-art.png": "/static/media/pixel-art.632c193f8c145355c873.png",
     "static/media/Type Machine.ttf": "/static/media/Type Machine.6326e0da1f05f14b5262.ttf",
-    "static/media/recipes.png": "/static/media/recipes.3810333db6768bb11ab3.png",
+    "static/media/recipes.png": "/static/media/recipes.0e9f24f495a839728a94.png",
     "static/media/Aesthetic-Regular.otf": "/static/media/Aesthetic-Regular.8a4496fa25db865ca707.otf",
     "static/media/redux.png": "/static/media/redux.82c6f00a89f29440515c.png",
     "static/media/next.png": "/static/media/next.49309b4c7ade3b6b9c1a.png",
@@ -19,10 +19,10 @@
     "static/media/jest.webp": "/static/media/jest.8c928f64502240cce854.webp",
     "index.html": "/index.html",
     "main.174faff7.css.map": "/static/css/main.174faff7.css.map",
-    "main.7b6bac4d.js.map": "/static/js/main.7b6bac4d.js.map"
+    "main.72498a61.js.map": "/static/js/main.72498a61.js.map"
   },
   "entrypoints": [
     "static/css/main.174faff7.css",
-    "static/js/main.7b6bac4d.js"
+    "static/js/main.72498a61.js"
   ]
 }
