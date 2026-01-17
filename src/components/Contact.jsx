@@ -2,9 +2,7 @@ import React from "react";
 import { useCopyToClipboard } from "@uidotdev/usehooks";
 import "../style/Contact.css";
 import Swal from "sweetalert2";
-// import git from "../extra/git.png";
-// import gmail from "../extra/email.png";
-// import linkedIn from "../extra/linkedin.png";
+// import dashes from "../extra/dashes.png";
 
 export default function Contact() {
   const [, copyToClipboard] = useCopyToClipboard();
@@ -24,6 +22,7 @@ export default function Contact() {
       <button id="emailBtn" onClick={copyEmail}>
         E-MAIL
       </button>
+      <h1 className="aster">*</h1>
       <a
         href="https://www.linkedin.com/in/amandarosr/"
         target="_blank"
@@ -31,6 +30,7 @@ export default function Contact() {
       >
         LINKEDIN
       </a>
+      <h1 className="aster">*</h1>
       <a href="https://github.com/amandarosr" target="_blank" rel="noreferrer">
         GITHUB
       </a>

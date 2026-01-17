@@ -3,17 +3,27 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 65%;
 }
 
 #emailBtn {
+  text-shadow: 1px 1px 1px #391c18;
+  font-family: SubFont;
   border: none;
   background: none;
 }
 
-.contato #emailBtn, .contato a {
+.contato #emailBtn,
+.contato a {
+  color: #7f948f;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 24px;
+}
+
+#emailBtn:hover,
+.contato a:hover {
+  color: #9c3f0c;
+  text-decoration: overline;
 }
 
 /* @media screen and (max-width: 800px) {
