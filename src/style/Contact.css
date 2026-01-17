@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
 }
 
 #emailBtn {
@@ -13,6 +13,7 @@
 
 .contato #emailBtn, .contato a {
   text-decoration: none;
+  font-size: 22px;
 }
 
 /* @media screen and (max-width: 800px) {

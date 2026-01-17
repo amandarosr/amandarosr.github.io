@@ -12,7 +12,7 @@ export default function CasesProjects() {
   return (
     <div className="habil">
       <h2 id="cases" className="subtitle">
-        cases
+        casos de estudo
       </h2>
       <div className="cases-div">
         <div className="siteInfo">

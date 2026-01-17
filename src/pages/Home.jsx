@@ -15,8 +15,8 @@ export default function Home() {
         </div>
       </div>
       <div className="btn-div">
-        <a href="#skills">conhecimentos</a>
-        <a href="#cases">cases</a>
+        <a href="#skills">CONHECIMENTOS</a>
+        <a href="#cases">CASES</a>
       </div>
       <div className="mainpage-bottom">
         <Skills />
