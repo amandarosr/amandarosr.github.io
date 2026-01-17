@@ -1,18 +1,14 @@
-@font-face {
+/* @font-face {
   font-family: MainFont;
   src: url(./extra/Aesthetic-Regular.otf);
-}
+} */
 
 body {
-  background-color: #d4c9ef;
+  background-color: #dad1ef;
   display: flex;
   justify-content: center;
-  font-family: MainFont;
+  /* font-family: MainFont; */
   text-align: center;
   overflow-x: hidden;
   margin: 10px 0;
 }
-
-/* button {
-  font-family: MainFont;
-} */

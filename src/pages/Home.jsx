@@ -7,19 +7,16 @@ import CasesProjects from "../components/CasesProjects";
 export default function Home() {
   return (
     <div className="fullpage">
-      <header>
-        <h3 id="descricao">desenvolvedora front-end</h3>
-        <Contact />
-      </header>
+      <Contact />
       <div className="mainpage-top">
         <div className="title">
-          <h1 id="nome">Amanda Rodrigues.</h1>
+          <h1 id="nome">Amanda Rodrigues</h1>
+          <h3 id="job">desenvolvedora front-end</h3>
         </div>
       </div>
       <div className="btn-div">
         <a href="#skills">conhecimentos</a>
         <a href="#cases">cases</a>
-        <a href="#projects">projetos</a>
       </div>
       <div className="mainpage-bottom">
         <Skills />

@@ -1,7 +1,9 @@
 .contato {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  width: 50%;
 }
 
 #emailBtn {
@@ -9,39 +11,10 @@
   background: none;
 }
 
-.c-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
+.contato #emailBtn, .contato a {
+  text-decoration: none;
 }
 
-.c-logos {
-  height: 50px;
-  margin: 20px 15px;
-  cursor: pointer;
-}
-
-.linked {
-  height: 52px;
-}
-
-.githubC {
-  margin-top: 28px;
-}
-
-@media screen and (max-width: 800px) {
-  .c-logos {
-    height: 30px;
-    margin: 10px;
-  }
-
-  .githubC {
-  margin-top: 18px;
-}
-
-  .linked {
-    height: 33px;
-  }
-}
+/* @media screen and (max-width: 800px) {
+  
+} */

@@ -7,7 +7,6 @@
 .siteInfo {
   display: flex;
   flex-direction: column;
-  font-family: TypeMachine;
   margin: 20px;
 }
 

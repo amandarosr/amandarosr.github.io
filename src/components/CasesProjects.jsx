@@ -11,7 +11,9 @@ import petPC from "../extra/pet-pc.png";
 export default function CasesProjects() {
   return (
     <div className="habil">
-      <h2 id="cases" className="subtitle">cases</h2>
+      <h2 id="cases" className="subtitle">
+        cases
+      </h2>
       <div className="cases-div">
         <div className="siteInfo">
           <img src={fakeStore} alt="sitePrint" className="screenshot" />
@@ -80,10 +82,8 @@ export default function CasesProjects() {
           </a>
         </div>
       </div>
-      <h2 id="projects" className="subtitle">projetos</h2>
-      {/* <div className="cases-div">
-
-      </div> */}
+      {/*<h2 id="projects" className="subtitle">projetos</h2>
+       <div className="cases-div"></div> */}
     </div>
   );
 }
