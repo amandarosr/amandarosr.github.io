@@ -1,33 +1,28 @@
 .habil {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 16px;
+  align-items: left;
+  margin: 50px 20px;
+  width: 70%;
 }
 
 .mouseOver {
   margin-top: -5px;
   font-weight: 600;
-  color: #f04702;
 }
 
 .habil-list {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: left;
   list-style-type: none;
-  width: 65%;
+  margin-left: -40px;
 }
 
 .habil-list li {
   display: flex;
   flex-direction: column;
-  margin: 8px;
-}
-
-.redux {
-  height: 90px;
+  margin: 20px;
 }
 
 .logos {

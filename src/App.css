@@ -1,18 +1,27 @@
 @font-face {
   font-family: MainFont;
-  src: url(./extra/Aesthetic-Regular.otf);
+  src: url(./extra/Gontserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: TitleFont;
+  src: url(./extra/Pecita.otf);
+}
+
+@font-face {
+  font-family: SubFont;
+  src: url(./extra/Baby\ Doll.ttf);
 }
 
 body {
-  background-color: #d4c9ef;
+  background-image: url("./extra/texture.jpg");
+  background-color: #FBF4E1;
+  /* background-color: #4f532b; */
+  text-shadow: 1px 1px 1px #391c18;
   display: flex;
   justify-content: center;
-  font-family: MainFont;
+  font-family: SubFont;
   text-align: center;
   overflow-x: hidden;
-  margin: 10px 0;
+  margin: 3% 0;
 }
-
-/* button {
-  font-family: MainFont;
-} */

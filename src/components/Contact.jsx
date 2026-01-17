@@ -2,9 +2,7 @@ import React from "react";
 import { useCopyToClipboard } from "@uidotdev/usehooks";
 import "../style/Contact.css";
 import Swal from "sweetalert2";
-import git from "../extra/git.png";
-import gmail from "../extra/email.png";
-import linkedIn from "../extra/linkedin.png";
+// import dashes from "../extra/dashes.png";
 
 export default function Contact() {
   const [, copyToClipboard] = useCopyToClipboard();
@@ -20,26 +18,22 @@ export default function Contact() {
   };
 
   return (
-    <div className="contato" id="contato">
-      <div className="c-info">
-        <button id="emailBtn" onClick={copyEmail}>
-          <img src={gmail} alt="gmail" className="c-logos" />
-        </button>
-        <a
-          href="https://www.linkedin.com/in/amandarosr/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={linkedIn} alt="linkedin" className="c-logos linked" />
-        </a>
-        <a
-          href="https://github.com/amandarosr"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={git} alt="git" className="c-logos githubC" />
-        </a>
-      </div>
+    <div className="contato">
+      <button id="emailBtn" onClick={copyEmail}>
+        E-MAIL
+      </button>
+      <h1 className="aster">*</h1>
+      <a
+        href="https://www.linkedin.com/in/amandarosr/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        LINKEDIN
+      </a>
+      <h1 className="aster">*</h1>
+      <a href="https://github.com/amandarosr" target="_blank" rel="noreferrer">
+        GITHUB
+      </a>
     </div>
   );
 }
